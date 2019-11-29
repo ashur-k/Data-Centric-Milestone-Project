@@ -1,22 +1,26 @@
- .videowrapper{
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 0px;
-    height: 0px;
-   
-    }
+/**** Hero Video section */
 
-.videowrapper iframe{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    height: auto;
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     background: rgba(0, 0 , 0, 0.2);
+    color: #fff;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+     min-height:70vh;
+}
+.video-bg{
+    position: absolute;
     z-index: -1;
-    }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
