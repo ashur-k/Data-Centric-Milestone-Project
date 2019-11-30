@@ -33,6 +33,13 @@
     justify-content: center;
     position: relative;
 }
+.classic-items{
+    position:absolute;
+    left:9;
+    top:0;
+    }
+ 
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -85,6 +92,7 @@ color: #fff;
 .my-flex-style {
      color:#655421;
      background-color:#010b13;
+ 
      border-right: double;
      border-right-color: #b60c26;
      border-right-width: 4px;
