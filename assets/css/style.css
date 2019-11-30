@@ -1,4 +1,9 @@
 /**** Hero Video section */
+body {
+    padding: 0;
+    margin: 0;
+    background-color:#fff;
+}
 .hero {
     display: flex;
     justify-content: center;
@@ -97,11 +102,44 @@ color: #fff;
      border-right-color: #b60c26;
      border-right-width: 4px;
     
+    
 }
 .my-flex-style h2{
     font-size: 30px;
-        
+       
 }
+
+
+.column-layout{
+    max-width: 100%;
+    background-color:#010b13;
+    color:#655421;
+    margin: 0px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+.main-column{
+    flex: 2;
+    order: 2;
+}
+.banner{
+
+    order: 1;
+    height: 400px;
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+.center-me{
+         color:#655421;
+   
+    font-size: 22px;
+    margin: auto;
+}
+
 
 /*Footer Section=======*************************========*/
 
@@ -121,6 +159,10 @@ color: #fff;
     border-top-color: #b60c26;
      border-top-width: 4px;
         
+}
+.column-layout, .main-column{
+   
+    flex-direction:column; 
 }
 
 }
