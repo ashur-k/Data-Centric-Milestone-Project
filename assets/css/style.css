@@ -1,9 +1,10 @@
-/**** Hero Video section */
+
 body {
     padding: 0;
     margin: 0;
     background-color:#fff;
 }
+/**** Hero Video section */
 .hero {
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ body {
     overflow: hidden;
      min-height:100vh;
 }
+
 .video-bg{
     position: absolute;
     z-index: -1;
@@ -25,7 +27,7 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
-/*Body Section=======*************************========*/
+/* ===============Jumbotron section=======*************************========*/
 .callout-container {
     height: 100vh;
     background: url('../images/wedding1.jpg') no-repeat bottom right fixed;
@@ -38,14 +40,8 @@ body {
     justify-content: center;
     position: relative;
 }
-.classic-items{
-    position:absolute;
-    left:9;
-    top:0;
-    }
- 
 
-.opaque-overlay {
+ .opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,8 +52,6 @@ body {
 .jumbotron {
     background-color: transparent;
 }
-
-
 .jumbotron h1:hover{
 font-weight: bold;
 }
@@ -70,7 +64,6 @@ color: #fff;
     color: #fff;
     margin: 25px 0;
 }
-
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
@@ -93,7 +86,7 @@ color: #fff;
     font-size: 60px;
     
 }
-
+/*---------Promotions section--------*/
 .my-flex-style {
      color:#655421;
      background-color:#010b13;
@@ -106,10 +99,7 @@ color: #fff;
 }
 .my-flex-style h2{
     font-size: 30px;
-       
 }
-
-
 .column-layout{
     max-width: 100%;
     background-color:#010b13;
@@ -124,7 +114,6 @@ color: #fff;
     order: 2;
 }
 .banner{
-
     order: 1;
     height: 400px;
     max-width: 700px;
@@ -146,30 +135,58 @@ color: #fff;
 
 
 /* Wedding-services.html styling*/
-#showcasee{
+#showcase{
     margin: 0;
     padding: 0;
     background: url('../images/wedding1.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: sticky;
+    overflow-y: hidden;
      }
-#showcasee .containerr
+ .container
 {
-
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
 }
-.text-section{
-   max-width: 1180px;
-   text-align: center;
-   margin: 0 auto;
-   padding: 0 3rem;
-   margin-top: 25vh;
-  
-}
-
+#showcase .container{
+  margin-top: 25vh;
+  }
+ #showcase h1{
+     font-size: 4rem;
+     margin-bottom: 0;
+     color:#655421;
+ } 
+ #showcase h2{
+     font-size: 2rem;
+     color:#655421;
+ } 
+ .lead{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color:#655421;
+ }
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
+@media (max-width: 580px) { 
+   .hide-on-small{
+       display: none;
+   }
+   
+   #showcase {
+       height: 50vh;
+   }
+   #showcase .container{
+       margin-top: 15vh;
+   }
+   #showcase h1{
+       font-size: 1.5rem;
+   }
+   #showcase h2{
+       font-size: 1.2rem;
+   }
     .d-flex{     
         flex-direction: column;       
 }
@@ -188,6 +205,7 @@ color: #fff;
    
     flex-direction:column; 
 }
+
 
 }
 /* Small devices (landscape phones, 576px and up)*/
