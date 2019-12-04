@@ -27,6 +27,18 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+ .main-headings h1{
+     color:#6D5A1C;
+   }
+    .main-headings h2{
+     color:#6D5A1C;
+   }
+/* ===============Services Provided=======*************************========*/
+.services-provided{
+   display: inline;
+}
+
+
 /* ===============Jumbotron section=======*************************========*/
 .callout-container {
     height: 100vh;
@@ -169,11 +181,19 @@ color: #fff;
     color:#655421;
  }
 
+ .head-shots{
+     width: 100vw;
+     height: 100vh;
+
+ }
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
    .hide-on-small{
        display: none;
+       
    }
+   
    
    #showcase {
        height: 50vh;
