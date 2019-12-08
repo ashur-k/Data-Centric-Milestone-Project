@@ -78,9 +78,13 @@
     <hr class="block-divider">
     <h2>Let Us tell your Story</h2>
     </div> 
-        <video class="video-bg hide-on-small" autoplay muted loop>
+        <video class="video-bg hide-on-small" id="myVideo" autoplay muted loop>
             <source src="assets/videos/video.mp4" type="video/mp4">
         </video>
+        <span class="button-position">
+       <button onclick="disableMute()" type="button">Enable sound</button>
+        <button onclick="enableMute()" type="button">Mute sound</button>
+        </span>
 </div>
 <!--Services Providing Section-->
     <!--Wedding Videography git and Photography Services-->            
@@ -251,6 +255,20 @@
 
      
 </footer>
+<script>
+var vid = document.getElementById("myVideo");
 
+function enableMute() { 
+  vid.muted = true;
+} 
+
+function disableMute() { 
+  vid.muted = false;
+} 
+
+function checkMute() { 
+  alert(vid.muted);
+} 
+</script> 
 </body>
 </html>

@@ -27,6 +27,12 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+.button-position{
+    position: absolute;
+    bottom: 8%;
+    left: 0%;
+    z-index: 1;
+}
  .main-headings h1{
      color:#6D5A1C;
    }
