@@ -2,7 +2,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color:#fff;
+
+    text-decoration: none;
 }
 /**** Hero Video section */
 .hero {
@@ -50,11 +51,14 @@ body {
     background-position:center;
 
 }
-
+.div-border-style{
+  background-color: #010b13;
+  border: 2px double #b60c26;
+}
 /* ===============Jumbotron section=======*************************========*/
 .callout-container {
     height: 100vh;
-    background: url('../images/wedding10.jpg') no-repeat bottom right fixed;
+    background: url('../images/wedding-images/wedding10.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -115,9 +119,9 @@ color: #fff;
      color:#655421;
      background-color:#010b13;
  
-     border-right: double;
-     border-right-color: #b60c26;
-     border-right-width: 4px;
+    
+     border: 4px double #b60c26;
+     
     
     
 }
@@ -137,15 +141,7 @@ color: #fff;
     flex: 2;
     order: 2;
 }
-.banner{
-    order: 1;
-    height: 400px;
-    max-width: 700px;
-    margin: 0px auto 0px auto;
-    display: flex;
-    flex: 1;
-    text-align: center;
-}
+
 .center-me{
     color:#655421;
     font-size: 22px;
@@ -167,12 +163,11 @@ color: #fff;
 #showcase{
     margin: 0;
     padding: 0;
-    background: url('../images/wedding1.jpg') no-repeat center/cover;
+    background: url('../images/wedding-images/wedding1.jpg') no-repeat center/cover;
     width: 100%;
     height: 100vh;
-    position: sticky;
-    overflow-y: hidden;
-     }
+    
+      }
  .container
 {
     max-width: 1180px;
@@ -194,8 +189,10 @@ color: #fff;
  } 
  .lead{
     font-size: 1.3rem;
-    font-weight: 300;
-    color:#655421;
+    font-weight: 100;
+    color:#fff;
+    
+   
  }
 
  .head-shots{
