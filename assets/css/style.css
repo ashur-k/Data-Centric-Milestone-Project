@@ -37,7 +37,13 @@ body {
 .services-provided{
    display: inline;
 }
+.images{
+    height: 75vh; 
+    width: 100%;
 
+    background-position:center;
+
+}
 
 /* ===============Jumbotron section=======*************************========*/
 .callout-container {
@@ -140,7 +146,13 @@ color: #fff;
     margin: auto;
 }
 
-
+.my-text-style{
+    background-color:#010b13;
+    color:#655421;
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+}
 /*Footer Section=======*************************========*/
 
 
