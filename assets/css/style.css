@@ -6,6 +6,9 @@ body {
     text-decoration: none;
 }
 /**** Hero Video section */
+
+
+
 .hero {
     display: flex;
     justify-content: center;
@@ -56,6 +59,18 @@ body {
   border: 2px double #b60c26;
 }
 /* ===============Jumbotron section=======*************************========*/
+.callout-container-footer{
+    height: 100vh;
+    background-color: red;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 .callout-container {
     height: 100vh;
     background: url('../images/wedding-images/wedding10.jpg') no-repeat bottom right fixed;
