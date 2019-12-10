@@ -2,21 +2,26 @@
 body {
     padding: 0;
     margin: 0;
-
     text-decoration: none;
 }
 /*--------------------- Carousel ------------------------- */
-.hre{
-    width: 140px;
+.carousel-heading-hr{
+    width: 440px;
     height: 5px;
     border: 0;
-    background-color: #655421;
+    background-color: red;
 }
+.carousel-heading-h5{
+    color: red;
+}
+.carousel-heading-p{
+ color: #fff;
 
+font-weight: 500;
+
+ background: rgba(255, 0 , 0, 0.6)
+}
 /**** Hero Video section */
-
-
-
 .hero {
     display: flex;
     justify-content: center;
@@ -27,7 +32,10 @@ body {
     margin-bottom: 0px;
     position: relative;
     overflow: hidden;
-     min-height:100vh;
+    height:98vh;
+    width:100%;
+
+     border: 12px groove #b60c26;
 }
 
 .video-bg{
@@ -39,17 +47,26 @@ body {
     min-width: 100%;
     min-height: 100%;
 }
+/*
 .button-position{
     position: absolute;
     bottom: 8%;
     left: 0%;
     z-index: 1;
-}
+}*/
  .main-headings h1{
-     color:#6D5A1C;
+     color:red;
+     background: rgba(248, 248, 248, 0.5);
+     border-radius: 50px;
+     padding: 5px;
+     margin: 5px;
    }
     .main-headings h2{
-     color:#6D5A1C;
+     color:red;
+     background: rgba(248, 248, 248, 0.5);
+     border-radius: 50px;
+     padding: 5px;
+     margin: 5px;
    }
 /* ===============Services Provided=======*************************========*/
 .services-provided{
@@ -67,18 +84,7 @@ body {
   border: 2px double #b60c26;
 }
 /* ===============Jumbotron section=======*************************========*/
-.callout-container-footer{
-    height: 100vh;
-    background-color: red;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+
 .callout-container {
     height: 100vh;
     background: url('../images/wedding-images/wedding10.jpg') no-repeat bottom right fixed;
@@ -220,9 +226,17 @@ color: #fff;
 
  .head-shots{
      width: 100vw;
-     height: 100vh;
+     height: 50vh;
 
  }
+
+ /* ===============Jumbotron section=======*************************========*/
+.callout-container-footer{
+   
+   
+    position: relative;
+}
+
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
