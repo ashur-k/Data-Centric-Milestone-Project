@@ -5,6 +5,14 @@ body {
 
     text-decoration: none;
 }
+/*--------------------- Carousel ------------------------- */
+.hre{
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: #655421;
+}
+
 /**** Hero Video section */
 
 
