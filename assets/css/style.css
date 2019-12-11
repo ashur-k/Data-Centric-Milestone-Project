@@ -5,35 +5,75 @@ body {
     text-decoration: none;
    
 }
+:root {
+  --main-bg-color: coral;
+}
 /*--------------------- Carousel ------------------------- */
 
-.carousel-heading-h1{
-    color: #333;
+.carousel-heading-p{
+    color: var(--main-bg-color);
 }
 .carousel-heading-h5{
- color: #fff;
+ color: var(--main-bg-color);
 
 font-weight: 500;
 
- background: rgba(255, 0 , 0, 0.6)
+ background: rgba(0, 0 , 0, 0.6)
 }
 /**** Hero Video section */
+.video-contianer{
+     
+    margin-top:0px; 
+    margin-bottom: 0px;
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    border: 12px groove #eaeff3;
+
+}
+.text-contianer{
+    text-align: center;
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    
+    
+}
+.video-text-col{
+    
+    z-index:-1; 
+    margin:auto; 
+    padding: 100px;
+}
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
      background: rgba(0, 0 , 0, 0.2);
-    color: #333;
+    color: var(--main-bg-color);
     margin-bottom: 0px;
     position: relative;
     overflow: hidden;
     height:100vh;
     width:100%;
-
-     border: 12px groove #010b13;
 }
 
+.callout-container-z {
+    height: 100vh;
+    
+    background: url('../../2.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
 .video-bg{
     position: absolute;
     z-index: -1;
@@ -43,6 +83,10 @@ font-weight: 500;
     min-width: 100%;
     min-height: 100%;
 }
+.section-2{
+  padding: 15px;
+  background: var(--main-bg-color);
+}
 /*
 .button-position{
     position: absolute;
@@ -51,14 +95,14 @@ font-weight: 500;
     z-index: 1;
 }*/
  .main-headings h1{
-     color:#333;
+     color:var(--main-bg-color);
      background: rgba(248, 248, 248, 0.5);
      border-radius: 50px;
      padding: 5px;
      margin: 5px;
    }
     .main-headings h2{
-     color:#333;
+     color:var(--main-bg-color);
      background: rgba(248, 248, 248, 0.5);
      border-radius: 50px;
      padding: 5px;
@@ -83,7 +127,8 @@ font-weight: 500;
 
 .callout-container {
     height: 100vh;
-    background: url('../images/wedding-images/wedding10.jpg') no-repeat bottom right fixed;
+    
+    background: url('../images/wedding-images/wedding18.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,6 +138,7 @@ font-weight: 500;
     justify-content: center;
     position: relative;
 }
+
 
  .opaque-overlay {
     position: absolute;
@@ -109,17 +155,17 @@ font-weight: 500;
 font-weight: bold;
 }
 .jumbotron p:hover{
-    color: #333;
+    color: var(--main-bg-color);
     font-weight: bold;
 }
 .jumbotron .lead {
-    color: #333;
+    color: var(--main-bg-color);
     margin: 25px 0;
 }
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: #333;
+    color: var(--main-bg-color);
 }
 
 /* Block dividers */
@@ -128,10 +174,10 @@ font-weight: bold;
     width: 140px;
     height: 5px;
     border: 0;
-    background-color: #655421;
+    background-color: var(--main-bg-color);
 }
 .jumbotron h1 {
-    color:#6D5A1C;
+    color:var(--main-bg-color);
     opacity: 0.9;
     border-radius: 20px;
     margin-bottom: 30px;
@@ -140,7 +186,7 @@ font-weight: bold;
 }
 /*---------Promotions section--------*/
 .my-flex-style {
-     color:#655421;
+     color:var(--main-bg-color);
      background-color:#010b13;
 
    
@@ -151,7 +197,7 @@ font-weight: bold;
 .column-layout{
     max-width: 100%;
     background-color:#010b13;
-    color:#333;
+    color:var(--main-bg-color);
     margin: 0px auto 0 auto;
     line-height: 1.65;
     padding: 20px 50px;
@@ -163,14 +209,14 @@ font-weight: bold;
 }
 
 .center-me{
-    color:#655421;
+    color:var(--main-bg-color);
     font-size: 22px;
     margin: auto;
 }
 
 .my-text-style{
     background-color:#010b13;
-    color:#333;
+    color:var(--main-bg-color);
     text-align: center;
     margin: auto;
     padding: 100px;
@@ -188,29 +234,23 @@ font-weight: bold;
     height: 100vh;
     
       }
- .container
-{
-    max-width: 1180px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 3rem;
-}
+
 #showcase .container{
   margin-top: 25vh;
   }
  #showcase h1{
      font-size: 4rem;
      margin-bottom: 0;
-     color:#655421;
+     color:var(--main-bg-color);
  } 
  #showcase h2{
      font-size: 2rem;
-     color:#655421;
+     color:var(--main-bg-color);
  } 
- .lead{
+ .lead1{
     font-size: 1.3rem;
     font-weight: 100;
-    color:#fff;
+    color:var(--main-bg-color);
     
    
  }
@@ -222,11 +262,7 @@ font-weight: bold;
  }
 
  /* ===============Jumbotron section=======*************************========*/
-.callout-container-footer{
-   
-   
-    position: relative;
-}
+
 
 
 /*Extra small devices (portrait phones, less than 576px)*/
