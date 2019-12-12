@@ -14,7 +14,7 @@ body {
 .callout-container {
     height: 100vh;
     
-    background: url('../images/wedding-images/wedding18.jpg') no-repeat bottom right fixed;
+    background: url('../images/landscape/home-hero-image.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,13 +64,14 @@ font-weight: bold;
 #headshots-section{
     padding: 25px;
     overflow: hidden;
+    background-color: coral;
 }
 .carousel-text-styling{
    font-size: 22px;
    padding-bottom: 10px;
     
 }
-
+/* --------------------landscape-section-area ------------------------- */
 
   /*--------------------Video section Area (second section) ------------------------- */
 /* ===============Services Provided=======*************************========*/
