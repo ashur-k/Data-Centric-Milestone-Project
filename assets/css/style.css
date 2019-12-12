@@ -10,10 +10,33 @@ body {
 }
 /*--------------------Header Area ------------------------- */
 
+/* --------------------Wedding area section Area ------------------------- */
+#wedding-promo-section{
+  height: 100vh;
+    background: chocolate;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     }
+    
+ .wedding-image{
+     width: 100%;
+     height: 100%;
+     padding: 5px;
+ }
+ .wedding-image img{
+     width: 100%;
+     height: 100%;
+ }
+
 /*--------------------Hero first section Area ------------------------- */
 .callout-container {
     height: 100vh;
-    
     background: url('../images/landscape/home-hero-image.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -72,14 +95,32 @@ font-weight: bold;
     
 }
 /* --------------------landscape-section-area ------------------------- */
-#landscape-section
-{
+#landscape-section{
     padding: 28px; 
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: chocolate;
     color: #000;
     margin: auto;
+    
 }
+.landscape-col-md-4-customs-styling{
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.image-div{
+    padding: 20px;
+}
+.image-div .landscape-images{
+   height: 50%; 
+   width: 100%;   
+}
+.landscape-second-row{
+    padding-top: 25px;
+}
+
+
+
   /*--------------------Video section Area (second section) ------------------------- */
 /* ===============Services Provided=======*************************========*/
 
