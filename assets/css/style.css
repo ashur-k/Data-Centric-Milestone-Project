@@ -72,7 +72,14 @@ font-weight: bold;
     
 }
 /* --------------------landscape-section-area ------------------------- */
-
+#landscape-section
+{
+    padding: 28px; 
+    overflow: hidden;
+    background-color: whitesmoke;
+    color: #000;
+    margin: auto;
+}
   /*--------------------Video section Area (second section) ------------------------- */
 /* ===============Services Provided=======*************************========*/
 
