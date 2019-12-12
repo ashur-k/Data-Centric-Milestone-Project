@@ -95,10 +95,10 @@ font-weight: bold;
     
 }
 /* --------------------landscape-section-area ------------------------- */
-#landscape-section{
+#landscape-and-product-photography-section{
     padding: 28px; 
     overflow: hidden;
-    background-color: chocolate;
+    background:rgba(255,255,255, 0.3);
     color: #000;
     margin: auto;
     
