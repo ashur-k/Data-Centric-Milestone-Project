@@ -8,123 +8,9 @@ body {
 :root {
   --main-bg-color: coral;
 }
-/*--------------------- Carousel ------------------------- */
+/*--------------------Header Area ------------------------- */
 
-.carousel-heading-p{
-    color: var(--main-bg-color);
-}
-.carousel-heading-h5{
- color: var(--main-bg-color);
-
-font-weight: 500;
-
- background: rgba(0, 0 , 0, 0.6)
-}
-/**** Hero Video section */
-.video-contianer{
-     
-    margin-top:0px; 
-    margin-bottom: 0px;
-    height: 75vh;
-    width: 100%;
-    overflow: hidden;
-    border: 12px groove #eaeff3;
-
-}
-.text-contianer{
-    text-align: center;
-    color: #fff;
-    padding: 0px;
-    margin: 0px;
-    font-size: 18px;
-    
-    
-}
-.video-text-col{
-    
-    z-index:-1; 
-    margin:auto; 
-    padding: 100px;
-}
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-     background: rgba(0, 0 , 0, 0.2);
-    color: var(--main-bg-color);
-    margin-bottom: 0px;
-    position: relative;
-    overflow: hidden;
-    height:100vh;
-    width:100%;
-}
-
-.callout-container-z {
-    height: 100vh;
-    
-    background: url('../../2.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: -1;
-}
-.video-bg{
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-}
-.section-2{
-  padding: 15px;
-  background: var(--main-bg-color);
-}
-/*
-.button-position{
-    position: absolute;
-    bottom: 8%;
-    left: 0%;
-    z-index: 1;
-}*/
- .main-headings h1{
-     color:var(--main-bg-color);
-     background: rgba(248, 248, 248, 0.5);
-     border-radius: 50px;
-     padding: 5px;
-     margin: 5px;
-   }
-    .main-headings h2{
-     color:var(--main-bg-color);
-     background: rgba(248, 248, 248, 0.5);
-     border-radius: 50px;
-     padding: 5px;
-     margin: 5px;
-   }
-/* ===============Services Provided=======*************************========*/
-.services-provided{
-   display: inline;
-}
-.images{
-    height: 75vh; 
-    width: 100%;
-
-    background-position:center;
-
-}
-.div-border-style{
-  background-color: #010b13;
-  border: 2px double #010b13;
-}
-/* ===============Jumbotron section=======*************************========*/
-
+/*--------------------Hero first section Area ------------------------- */
 .callout-container {
     height: 100vh;
     
@@ -138,9 +24,7 @@ font-weight: 500;
     justify-content: center;
     position: relative;
 }
-
-
- .opaque-overlay {
+.opaque-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -151,6 +35,23 @@ font-weight: 500;
 .jumbotron {
     background-color: transparent;
 }
+.jumbotron h1 {
+    color:var(--main-bg-color);
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    }
+.block-divider {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: var(--main-bg-color);
+}
+.jumbotron .lead {
+    color: var(--main-bg-color);
+    margin: 25px 0;
+}
 .jumbotron h1:hover{
 font-weight: bold;
 }
@@ -158,108 +59,39 @@ font-weight: bold;
     color: var(--main-bg-color);
     font-weight: bold;
 }
-.jumbotron .lead {
-    color: var(--main-bg-color);
-    margin: 25px 0;
+
+/* --------------------carousel-head-section-area ------------------------- */
+#headshots-section{
+    padding: 25px;
+    overflow: hidden;
 }
-.jumbotron small {
-    font-size: 60%;
-    font-style: italic;
-    color: var(--main-bg-color);
+.carousel-text-styling{
+   font-size: 22px;
+   padding-bottom: 10px;
+    
 }
+
+
+  /*--------------------Video section Area (second section) ------------------------- */
+/* ===============Services Provided=======*************************========*/
+
+
+
+
 
 /* Block dividers */
 
-.block-divider {
-    width: 140px;
-    height: 5px;
-    border: 0;
-    background-color: var(--main-bg-color);
-}
-.jumbotron h1 {
-    color:var(--main-bg-color);
-    opacity: 0.9;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    font-size: 60px;
-    
-}
+
 /*---------Promotions section--------*/
-.my-flex-style {
-     color:var(--main-bg-color);
-     background-color:#010b13;
 
-   
-}
-.my-flex-style h2{
-    font-size: 30px;
-}
-.column-layout{
-    max-width: 100%;
-    background-color:#010b13;
-    color:var(--main-bg-color);
-    margin: 0px auto 0 auto;
-    line-height: 1.65;
-    padding: 20px 50px;
-    display: flex;
-}
-.main-column{
-    flex: 2;
-    order: 2;
-}
 
-.center-me{
-    color:var(--main-bg-color);
-    font-size: 22px;
-    margin: auto;
-}
 
-.my-text-style{
-    background-color:#010b13;
-    color:var(--main-bg-color);
-    text-align: center;
-    margin: auto;
-    padding: 100px;
-}
 /*Footer Section=======*************************========*/
 
 
 
 /* Wedding-services.html styling*/
-#showcase{
-    margin: 0;
-    padding: 0;
-    background: url('../images/wedding-images/wedding1.jpg') no-repeat center/cover;
-    width: 100%;
-    height: 100vh;
-    
-      }
 
-#showcase .container{
-  margin-top: 25vh;
-  }
- #showcase h1{
-     font-size: 4rem;
-     margin-bottom: 0;
-     color:var(--main-bg-color);
- } 
- #showcase h2{
-     font-size: 2rem;
-     color:var(--main-bg-color);
- } 
- .lead1{
-    font-size: 1.3rem;
-    font-weight: 100;
-    color:var(--main-bg-color);
-    
-   
- }
-
- .head-shots{
-     width: 100vw;
-     height: 50vh;
-
- }
 
  /* ===============Jumbotron section=======*************************========*/
 
@@ -269,10 +101,8 @@ font-weight: bold;
 @media (max-width: 580px) { 
    .hide-on-small{
        display: none;
-       
-   }
-   
-   
+     }
+      
    #showcase {
        height: 50vh;
    }
