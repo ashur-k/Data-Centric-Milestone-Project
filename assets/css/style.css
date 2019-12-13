@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400i,700i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
 :root {
-  --h1-font-color:#FFDEAD; 
-  --p-font-color:#FAEBD7;
+
+--nav-bar-bg-color:#000;
+--nav-bar-items-color:#B0E0E6;
+
+  --h1-font-color:#B0E0E6; 
+  --p-font-color:#B0E0E6;
+
+  --h1-font-family:Roboto;
+  --p-font-family:Lato;
 
   --font-bg-color: #8B0000;
   --stand-out-color: #DAA520;
@@ -11,8 +18,7 @@
   --text-hover-color: #BDB76B;
   --text-hover-bg-color: #DCDCDC;
 
-  --headings-font-family:Lato;
-  --para-font-family:Roboto;
+ 
   }
 body {
     padding: 0;
@@ -23,11 +29,15 @@ body {
 
 /*--------------------Header Area ------------------------- */
 .navbar {
-     background-color: black;
-     opacity: .9;
+     background-color:var(--nav-bar-bg-color);
+     opacity: 0.9;
+}
+#logo{
+    letter-spacing: 5px;
 }
 .custom-navbar-items{
-    color: #fff;
+    color: var(--nav-bar-items-color);
+    font-weight: lighter;
 }
 
 
@@ -61,6 +71,7 @@ body {
     border-radius: 20px;
     margin-bottom: 30px;
     font-size: 80px;
+    font-family: var(--h1-font-family);
     }
 .jumbotron h1 span {
   color: var( --stand-out-color);
@@ -75,6 +86,7 @@ body {
     color:var(--p-font-color);
     margin: 25px 0;
     font-size: 25px;
+    font-family: var(--p-font-family);
     
 }
 .jumbotron h1:hover{
@@ -101,7 +113,7 @@ font-weight: bold;
  .wedding-image{
      width: 100%;
      height: 100%;
-     padding: 5px;
+     padding-top: 10px;
  }
  .wedding-image img{
      width: 100%;
@@ -121,20 +133,20 @@ font-weight: bold;
 }
 /* --------------------landscape-section-area ------------------------- */
 #landscape-and-product-photography-section{
-    padding: 28px; 
+    padding: 18px; 
     overflow: hidden;
     background:rgba(255,255,255, 0.3);
     color: #000;
     margin: auto;
-    
-}
+   
+    }
 .landscape-col-md-4-customs-styling{
     margin: auto;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
 }
 .image-div{
-    padding: 20px;
+    padding: 10px;
 }
 .image-div .landscape-images{
    height: 50%; 
@@ -143,9 +155,6 @@ font-weight: bold;
 .landscape-second-row{
     padding-top: 25px;
 }
-
-
-
 /*--------------------Video section Area (second section) ------------------------- */
 #video-section{
      height: 100vh;
@@ -197,4 +206,8 @@ font-weight: bold;
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+     .hide-on-large{
+       display: none;
+     }
+ }
