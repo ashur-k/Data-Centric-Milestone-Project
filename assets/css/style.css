@@ -17,9 +17,8 @@
 
   --text-hover-color: #BDB76B;
   --text-hover-bg-color: #DCDCDC;
-
- 
   }
+
 body {
     padding: 0;
     margin: 0;
@@ -138,19 +137,27 @@ font-weight: bold;
     background:rgba(255,255,255, 0.3);
     color: #000;
     margin: auto;
+    
    
     }
 .landscape-col-md-4-customs-styling{
     margin: auto;
     padding-bottom: 5px;
-    text-align: center;
+    
 }
 .image-div{
     padding: 10px;
 }
+.product-image-div{
+    width: 30%;
+    height: 30%;
+}
 .image-div .landscape-images{
    height: 50%; 
    width: 100%;   
+}
+.image-div .product-images{
+      width: 70%;   
 }
 .landscape-second-row{
     padding-top: 25px;
@@ -200,7 +207,11 @@ font-weight: bold;
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .hide-on-medium{
+       display: none;
+     }
+ }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
@@ -211,3 +222,27 @@ font-weight: bold;
        display: none;
      }
  }
+ @media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+.hide-on-medium{
+       display: none;
+     }
+ }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+.hide-on-medium{
+       display: none;
+     }
+ }
+}
