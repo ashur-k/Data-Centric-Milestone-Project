@@ -221,6 +221,21 @@ font-weight: bold;
     margin: auto;
 }
 
+/*Wedding Page=======*************************========*/
+/*--------------------Hero first section Area ------------------------- */
+.wedding-page-callout-container {
+    height: 100vh;
+    background: url('../images/wedding-images/wedding8.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
     .jumbotron h1 {
