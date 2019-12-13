@@ -4,8 +4,8 @@
 --nav-bar-bg-color:#000;
 --nav-bar-items-color:#B0E0E6;
 
-  --h1-font-color:#B0E0E6; 
-  --p-font-color:#B0E0E6;
+  --h1-font-color:#fff; 
+  --p-font-color:#fff;
 
   --h1-font-family:Roboto;
   --p-font-family:Lato;
@@ -33,12 +33,41 @@ body {
 }
 #logo{
     letter-spacing: 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    
 }
-.custom-navbar-items{
-    color: var(--nav-bar-items-color);
-    font-weight: lighter;
+#logo span{color: var( --stand-out-color);
+    }
+.navbar-menu-items{
+    color: #fff;
+}
+.navbar-menu-items:hover{
+font-weight: bold;
+color: var(--nav-bar-items-color);
+}
+.active{
+  background: rgba(255, 0, 0, 0.6);
+  border-radius: 10px;
+  
+  
+}
+.navbar-menu-list-items{
+    color: #fff;
 }
 
+.dropdown-menu-item-bg-color{
+    background-color: black;
+}
+
+ .dropdown-menu-item-bg-color  a:hover{
+    background-color: red;
+    color: black;
+}
 
 /*--------------------Hero first section Area ------------------------- */
 .callout-container {
@@ -108,15 +137,16 @@ font-weight: bold;
     justify-content: center;
     position: relative;
      }
-    
  .wedding-image{
-     width: 100%;
-     height: 100%;
-     padding-top:10px;
- }
+    width: 100%;
+    height: 100%;
+    }
  .wedding-image img{
-     width: 100%;
-     height: 100%;
+    width: 100%;
+    height: 100%;
+ }
+ button {
+      margin-bottom: 10px;
  }
 
 /* --------------------carousel-head-section-area ------------------------- */
@@ -137,14 +167,12 @@ font-weight: bold;
     background:rgba(255,255,255, 0.3);
     color: #000;
     margin: auto;
-    
-   
-    }
+     }
 .landscape-col-md-4-customs-styling{
     margin: auto;
     padding-bottom: 5px;
-    
-}
+    text-align: center;
+     }
 .image-div{
     padding: 10px;
 }
