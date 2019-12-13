@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400i,700i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
 :root {
-  --font-color:#FFDEAD; 
+  --h1-font-color:#FFDEAD; 
+  --p-font-color:#FAEBD7;
+
   --font-bg-color: #8B0000;
   --stand-out-color: #DAA520;
+
   --hr-bg-color: #FF4500;
+
   --text-hover-color: #BDB76B;
   --text-hover-bg-color: #DCDCDC;
+
   --headings-font-family:Lato;
-  --para-font-family:&nbspRoboto;
+  --para-font-family:Roboto;
   }
 body {
     padding: 0;
@@ -17,6 +22,13 @@ body {
 }
 
 /*--------------------Header Area ------------------------- */
+.navbar {
+     background-color: black;
+     opacity: .9;
+}
+.custom-navbar-items{
+    color: #fff;
+}
 
 
 /*--------------------Hero first section Area ------------------------- */
@@ -44,24 +56,25 @@ body {
     background-color: transparent;
 }
 .jumbotron h1 {
-    color:var(--font-color);
+    color:var(--h1-font-color);
     opacity: 0.9;
     border-radius: 20px;
     margin-bottom: 30px;
-    font-size: 60px;
+    font-size: 80px;
     }
 .jumbotron h1 span {
   color: var( --stand-out-color);
     }
-.block-divider {
+.hr-divider {
     width: 140px;
     height: 5px;
     border: 0;
     background-color: var(--hr-bg-color);
 }
 .jumbotron .lead {
-    color:var(--font-color);
+    color:var(--p-font-color);
     margin: 25px 0;
+    font-size: 25px;
     
 }
 .jumbotron h1:hover{
@@ -164,52 +177,15 @@ font-weight: bold;
     margin: auto;
 }
 
-
-/* Wedding-services.html styling*/
-
-
- /* ===============Jumbotron section=======*************************========*/
-
-
-
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
+    .jumbotron h1 {
+    
+    font-size: 60px;
+    }
    .hide-on-small{
        display: none;
      }
-      
-   #showcase {
-       height: 50vh;
-   }
-   #showcase .container{
-       margin-top: 15vh;
-   }
-   #showcase h1{
-       font-size: 1.5rem;
-   }
-   #showcase h2{
-       font-size: 1.2rem;
-   }
-    .d-flex{     
-        flex-direction: column;       
-}
-.my-flex-style h2{
-    border-right: unset;
-     border-right-color: unset;
-     border-right-width: unset;
-    
-    font-size: 30px;
-    border-top: double;
-    border-top-color: #b60c26;
-     border-top-width: 4px;
-        
-}
-.column-layout, .main-column{
-   
-    flex-direction:column; 
-}
-
-
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
