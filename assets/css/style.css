@@ -39,6 +39,8 @@ body {
     padding-top: 2px;
     padding-left: 12px;
     padding-right: 12px;
+     background: rgba(255, 0, 0, 0.6);
+  border-radius: 10px;
     
 }
 #logo span{color: var( --stand-out-color);
@@ -51,9 +53,7 @@ font-weight: bold;
 color: var(--nav-bar-items-color);
 }
 .active{
-  background: rgba(255, 0, 0, 0.6);
-  border-radius: 10px;
-  
+ border-bottom: 1px solid #fff;
   
 }
 .navbar-menu-list-items{
@@ -225,7 +225,31 @@ font-weight: bold;
 /*--------------------Hero first section Area ------------------------- */
 .wedding-page-callout-container {
     height: 100vh;
-    background: url('../images/wedding-images/wedding8.jpg') no-repeat bottom right fixed;
+    background: url('../images/wedding-images/wedding22.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 10px;
+}
+
+#photo img{
+    width: 100%;
+}
+/*Wediing page main container*/
+
+.wedding-page-main-container {
+     height: 100%;
+    background: red;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
