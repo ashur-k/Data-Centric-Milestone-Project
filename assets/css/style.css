@@ -17,6 +17,8 @@
 
   --text-hover-color: #BDB76B;
   --text-hover-bg-color: #DCDCDC;
+
+  --Wedding-services-color:green;
   }
 
 body {
@@ -101,6 +103,7 @@ color: var(--nav-bar-items-color);
     font-size: 80px;
     font-family: var(--h1-font-family);
     }
+   
 .jumbotron h1 span {
   color: var( --stand-out-color);
     }
@@ -225,7 +228,7 @@ font-weight: bold;
 /*--------------------Hero first section Area ------------------------- */
 .wedding-page-callout-container {
     height: 100vh;
-    background: url('../images/wedding-images/wedding22.jpg') no-repeat bottom right fixed;
+    background: url('../images/wedding-images/wedding15.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -245,19 +248,70 @@ font-weight: bold;
 #photo img{
     width: 100%;
 }
+
+.wedding-jumbotron h1 {
+    color:var(--h1-font-color);
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    font-family: var(--h1-font-family);
+    }
+ .wedding-jumbotron h2 {
+    color:var(--Wedding-services-color);
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-bottom: 0px;
+     margin-top: 0px;
+     padding:0px; 
+    font-size: 50px;
+    font-family: var(--h1-font-family);
+    }
+    .wedding-jumbotron h1 span {
+  color: var( --stand-out-color);
+    }
+ 
+.wedding-jumbotron .lead {
+    color:var(--p-font-color);
+    margin: 25px 0;
+    font-size: 25px;
+    font-family: var(--p-font-family);
+    
+}
+.wedding-jumbotron h1:hover{
+font-weight: bold;
+}
+.wedding-jumbotron p:hover{
+   font-weight: bold;
+}
+.wedding-jumbotron h2:hover{
+   font-weight: bold;
+}
 /*Wediing page main container*/
 
-.wedding-page-main-container {
-     height: 100%;
-    background: red;
+
+.wedding-long-image{
+    height: 200vh;
+   
+background-position: fixed;
+    
+       background: radial-gradient(circle, black, white);
+}
+.wedding-image-container{
+     height: 200vh;
+    
+    
+    background-position: top center;
+    background-size:contain; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
