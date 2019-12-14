@@ -292,7 +292,7 @@ font-weight: bold;
 .wedding-long-image{
     height: 220vh;
     background-position: fixed;
-    background: radial-gradient(circle, black, white);
+    background: radial-gradient(circle, white, red);
 }
 .wedding-image-container{
     height: 220vh;
@@ -324,6 +324,7 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     position: relative;
+    margin: 0px;
 }
 .wedding-title-jumbotron .container .display-4 {
     color: #fff;
@@ -333,6 +334,26 @@ font-weight: bold;
     color: #fff;
       text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     background-color: rgba(0, 0, 0, 0.6)
+}
+.Landscape-images-container-fluid{
+    background: radial-gradient(circle, orange, white);
+    height: 100vh;
+    margin: auto;
+}
+.wedding-page-video-container{
+    padding-top: 0px;
+}
+.landscape-wedding-image-container{
+   height: 100vh;
+    background-position: top center;
+    background-size:contain; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
@@ -349,6 +370,32 @@ font-weight: bold;
      .wedding-image-container{
         height: 100vh;
      }
+     .wedding-title-jumbotron {
+    height: 100vh;
+    background: transparent;
+    margin: 0px;
+
+}
+.wedding-title-jumbotron .container .display-4 {
+    color: #000;
+    text-align: center;
+    text-shadow: none;
+   
+     margin: 0px;
+}
+.wedding-title-jumbotron .container .lead {
+    color: #000;
+    text-align: center;
+    background: none;
+    text-shadow: none;
+    font-size: 18px;
+    font-weight: bold;
+   margin: 5px;
+   letter-spacing: 2px;
+   word-spacing: 3px;
+   
+     
+}
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
