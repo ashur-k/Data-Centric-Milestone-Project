@@ -289,31 +289,51 @@ font-weight: bold;
 }
 /*Wediing page main container*/
 
-
 .wedding-long-image{
-    height: 200vh;
-   
-background-position: fixed;
-    
-       background: radial-gradient(circle, black, white);
+    height: 220vh;
+    background-position: fixed;
+    background: radial-gradient(circle, black, white);
 }
 .wedding-image-container{
-     height: 200vh;
-    
-    
+    height: 220vh;
     background-position: top center;
     background-size:contain; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     
 }
-
+.jumbotron .container .display-4{
+    color: black;
+}
+.jumbotron .container .lead{
+    color: black;
+}
+.wedding-title-jumbotron {
+    height: 100vh;
+    background: url('../images/wedding-images/wedding19.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wedding-title-jumbotron .container .display-4 {
+    color: #fff;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.wedding-title-jumbotron .container .lead {
+    color: #fff;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: rgba(0, 0, 0, 0.6)
+}
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
     .jumbotron h1 {
@@ -322,6 +342,12 @@ background-position: fixed;
     }
    .hide-on-small{
        display: none;
+     }
+     .wedding-long-image{
+            height: 100vh;
+     }
+     .wedding-image-container{
+        height: 100vh;
      }
 }
 /* Small devices (landscape phones, 576px and up)*/
