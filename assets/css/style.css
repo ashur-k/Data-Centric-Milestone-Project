@@ -355,6 +355,18 @@ font-weight: bold;
     justify-content: center;
     position: relative;
 }
+.headshots-title{
+    padding-left:0px;
+    padding-right: 0px; 
+    margin-top: 51px;
+    overflow: hidden;
+    height: 100vh;
+}
+.head-shots-col{
+ margin-top: 5px;
+   padding-left:0px;
+    padding-right: 0px; 
+}
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
     .jumbotron h1 {
