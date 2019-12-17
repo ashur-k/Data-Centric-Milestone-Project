@@ -367,6 +367,34 @@ font-weight: bold;
    padding-left:0px;
     padding-right: 0px; 
 }
+/*Landscape page page main container*/
+.landscape-main-container{
+    height: 100vh;
+  background: radial-gradient(circle, orange, white);
+
+    background-position: top center;
+    background-size:contain; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.landscape-image-container{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    padding: 50px;
+}
+.landscape-text-container{
+       width: 100%;
+    height: 100%;
+
+    right: 30px;
+ 
+}
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
     .jumbotron h1 {
