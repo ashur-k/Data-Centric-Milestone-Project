@@ -60,10 +60,10 @@ body {
 font-weight: bold;
 color: var(--nav-bar-items-hover-color);
 }
-.active{
+.activee{
  border-bottom: 1px solid var(--nav-bar-active-underline-color);
   }
-.active-item{
+.activee-item{
     background: var(--nav-bar-active-items-color);
     padding-top: 5px;
     padding-bottom: 5px;
@@ -162,7 +162,9 @@ font-weight: bold;
       margin-bottom: 15px;
     
  }
-
+.carousel-item {
+  transition-duration: 1s;
+}
 /* --------------------carousel-head-section-area ------------------------- */
 #headshots-section{
     padding: 18px;
@@ -459,7 +461,11 @@ font-weight: bold;
  }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 1536px) and (min-height: 864px) { 
+    #wedding-promo-section{
+        height: 150vh;
+    }
+    }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
@@ -477,6 +483,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
      }
  }
 }
+
+
 
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
