@@ -232,10 +232,18 @@ font-weight: bold;
 #footer-section{
     padding: 28px; 
     overflow: hidden;
-    background-color: chocolate;
+    background: radial-gradient(circle, grey, white );
     color: #000;
     margin: auto;
 }
+.about-us-heading{
+    font-size: 24px;
+    text-align: center;
+}
+.about-us-p{
+      font-size: 18px;
+}
+
 
 /*Wedding Page=======*************************========*/
 /*--------------------Hero first section Area ------------------------- */
