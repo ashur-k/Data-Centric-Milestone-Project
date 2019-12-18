@@ -376,18 +376,7 @@ font-weight: bold;
     justify-content: center;
     position: relative;
 }
-.headshots-title{
-    padding-left:0px;
-    padding-right: 0px; 
-    margin-top: 51px;
-    overflow: hidden;
-    height: 100vh;
-}
-.head-shots-col{
- margin-top: 5px;
-   padding-left:0px;
-    padding-right: 0px; 
-}
+
 /*Landscape page page main container*/
 .landscape-main-container{
     height: 100vh;
@@ -415,6 +404,33 @@ font-weight: bold;
 
     right: 30px;
  
+}
+/*Headshot page css*/
+.head-shots-title-container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 10vh;
+    background-color: #333;
+    color: #fff;
+}
+.headshots-title{
+    padding-left:0px;
+    padding-right: 0px; 
+   
+    overflow: hidden;
+    height: 100vh;
+}
+.head-shots-col{
+
+   padding-left:0px;
+    padding-right: 0px; 
+}
+.image-gallery-1{
+    background: red;
+    padding-top: 0px;
+}
+.col-settings{
+    padding: 15px;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
@@ -506,4 +522,3 @@ and (-webkit-min-device-pixel-ratio: 2) {
        display: none;
      }
  }
-}
