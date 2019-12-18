@@ -5,9 +5,12 @@
 --nav-bar-items-color:rgb(248, 251, 252);
 --nav-bar-items-hover-color:rgb(130, 183, 202);
 --dropdown-menu-item-bg-color:orange;
- --nav-bar-active-items-color:orange;
- --nav-bar-logo-background: rgba(255, 0, 0, 0.6);
---dropdown-menu-selection-item-bg-color:black
+--nav-bar-active-underline-color:#fff;
+--nav-bar-active-items-color:orange;
+--nav-bar-logo-background: rgba(255, 0, 0, 0.6);
+--dropdown-menu-selection-item-bg-color:black;
+--dropdown-menu-list-items-color:#fff;
+
   --h1-font-color:#fff; 
   --p-font-color:#fff;
 
@@ -47,8 +50,7 @@ body {
     padding-right: 12px;
     background: var( --nav-bar-logo-background);
     border-radius: 10px;
-   
-}
+   }
 #logo span{color: var(--stand-out-color);
     }
 .navbar-menu-items{
@@ -59,9 +61,8 @@ font-weight: bold;
 color: var(--nav-bar-items-hover-color);
 }
 .active{
- border-bottom: 1px solid #fff;
-  
-}
+ border-bottom: 1px solid var(--nav-bar-active-underline-color);
+  }
 .active-item{
     background: var(--nav-bar-active-items-color);
     padding-top: 5px;
@@ -70,22 +71,19 @@ color: var(--nav-bar-items-hover-color);
     padding-right: 15px;
 }
 .navbar-menu-list-items{
-    color: #fff;
+    color: var(--dropdown-menu-list-items-color);
 }
-
 .dropdown-menu-item-bg-color{
-    background-color: black;
-}
-
- .dropdown-menu-item-bg-color  a:hover{
+    background-color: var(--dropdown-menu-selection-item-bg-color);
+    }
+ .dropdown-menu-item-bg-color a:hover{
     background-color: var(--dropdown-menu-item-bg-color);
-    color: black;
-}
-
+    }
 /*--------------------Hero first section Area ------------------------- */
-.callout-container {
+.index-hero-container {
     height: 100vh;
-    background: url('../images/landscape/home-hero-image.jpg') no-repeat bottom right fixed;
+    background: url('../images/landscape/home-hero-image.jpg') bottom right fixed;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
