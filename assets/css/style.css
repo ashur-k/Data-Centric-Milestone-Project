@@ -361,72 +361,27 @@ font-weight: bold;
 }
 /*Wediing page main container*/
 
-.wedding-long-image{
-    height: 220vh;
-    background-position: fixed;
-  background: var(--web-color-theme);
-}
-.wedding-image-container{
-    height: 220vh;
-    background-position: top center;
-    background-size:contain; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
-}
+
 .jumbotron .container .display-4{
     color: black;
 }
 .jumbotron .container .lead{
     color: black;
 }
-.wedding-title-jumbotron {
-    height: 100vh;
-    background: url('../images/wedding-images/wedding19.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: 0px;
-}
-.wedding-title-jumbotron .container .display-4 {
-    color: #fff;
-   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-.wedding-title-jumbotron .container .lead {
-    color: #fff;
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    background-color: rgba(0, 0, 0, 0.6)
-}
+
+
 .Landscape-images-container-fluid{
   background: var(--web-color-theme);
     height: 100vh;
-    margin: auto;
+   
+   
 }
+
 .wedding-page-video-container{
     padding-top: 0px;
 }
-.landscape-wedding-image-container{
-   height: 100vh;
-    background-position: top center;
-    background-size:contain; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+
+
 
 /*Landscape page page main container*/
 .landscape-main-container{
@@ -442,39 +397,71 @@ font-weight: bold;
     justify-content: center;
     overflow-x: hidden;
 }
-.landscape-image-container{
-    width: 100%;
-    height: 50%;
-    margin: auto;
-    padding: 50px;
-    
-}
-.landscape-text-container{
-       width: 100%;
-    height: 100%;
 
-    right: 30px;
- 
-}
 /*Headshot page css*/
-.head-shots-title-container{
+.index-head-container{
+    height: 100vh;
+     background: var(--web-color-theme);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 15px;
+   
+}
+.jumbotron {
+    background-color: transparent;
+}
+#headshot-header-h1 {
+    color:var(--h1-font-color);
+    font-size:80px;
+    font-family: var(--h1-font-family);
+    padding-top: 25px;
+     margin-top: 0px;
+    margin-bottom: 0px;
+    }
+   
+
+.headshot-divider {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: var(--hr-bg-color);
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 10vh;
-    background: var(--web-color-theme);
-    color: #fff;
+}
+.jumbotron .lead {
+    color:var(--p-font-color);
+    margin:0;
+    font-size: 25px;
+    font-family: var(--p-font-family);
+    
+}
+.jumbotron h1:hover{
+font-weight: bold;
+}
+.jumbotron p:hover{
+   font-weight: bold;
 }
 .headshots-title{
     padding-left:0px;
     padding-right: 0px; 
    
     overflow: hidden;
-    height: 100vh;
+    height: 120vh;
+    background: var(--web-color-theme);
 }
 .head-shots-col{
 
    padding-left:0px;
     padding-right: 0px; 
+    padding-bottom:20px;
+    margin-bottom: 20px; 
 }
 .image-gallery-1{
   background: var(--web-color-theme);
@@ -482,6 +469,17 @@ font-weight: bold;
 }
 .col-settings{
     padding: 15px;
+}
+.headshot-card-container{
+   background: var(--web-color-theme);
+    height:200vh;
+     padding-top: 10px;
+}
+.card-class{
+    margin-top:5px; 
+    padding-top:5px; 
+    background-color:transparent; 
+    border:none;
 }
 /*Contact-us*/
 .divider-div{
