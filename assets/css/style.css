@@ -2,18 +2,23 @@
 :root {
 
 --nav-bar-bg-color:#000;
---nav-bar-items-color:rgb(248, 251, 252);
+--nav-bar-items-color:rgb(18, 18, 19);
 --nav-bar-items-hover-color:rgb(130, 183, 202);
 --dropdown-menu-item-bg-color:orange;
 --nav-bar-active-underline-color:#fff;
 --nav-bar-active-items-color:orange;
---nav-bar-logo-background: rgba(255, 0, 0, 0.6);
+
+--web-color-theme:#cdcdcd;
+--web-main-theme-color:#000;
+
+
+/*--nav-bar-logo-background: rgba(255, 0, 0, 0.6);*/
 --dropdown-menu-selection-item-bg-color:black;
 --dropdown-menu-list-items-color:#fff;
 
   --h1-font-color:#fff; 
   --p-font-color:#fff;
-
+    --secondary-p-font-color:#000;
   --h1-font-family:Roboto;
   --p-font-family:Lato;
 
@@ -32,17 +37,21 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
+    color: #fff;
+    font-family: var(--p-font-family);
    
 }
 
 /*--------------------Header Area ------------------------- */
 .navbar {
-     background-color:var(--nav-bar-bg-color);
+     
      opacity: 0.9;
+     background: var(--web-color-theme);
+    color: #000;
 }
 #logo{
     letter-spacing: 5px;
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     padding-bottom: 2px;
     padding-top: 2px;
@@ -55,6 +64,7 @@ body {
     }
 .navbar-menu-items{
     color: var( --nav-bar-items-color);
+    font-size: 18px;
 }
 .navbar-menu-items:hover{
 font-weight: bold;
@@ -138,7 +148,8 @@ font-weight: bold;
 /* --------------------Wedding area section Area ------------------------- */
 #wedding-promo-section{
     height: 100vh;
-    background: radial-gradient(circle, coral, red);
+  background: var(--web-color-theme);
+    color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,6 +158,17 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     position: relative;
+    
+     }
+     .col-md-12 h1{
+         font-size: 42px;
+     }
+     .wedding-para-text{
+    color:var(--secondary-p-font-color);
+    margin: 25px 0;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: var(--p-font-family);
      }
  .wedding-image{
     width: 100%;
@@ -169,47 +191,76 @@ font-weight: bold;
 #headshots-section{
     padding: 18px;
     overflow: hidden;
-    background-color: coral;
+  background: var(--web-color-theme);
+    color: #fff;
+    
 }
+ .headshots-para-text, .video-para-text{
+    color:var(--secondary-p-font-color);
+    margin: 0px;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: var(--p-font-family);
+     }
+     
+    .headshots-para-text {
+    color:var(--secondary-p-font-color);
+    margin: 25px 0;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: var(--p-font-family);
+     }
 .carousel-text-styling{
    font-size: 22px;
    padding-bottom: 10px;
     
 }
+
+
 /* --------------------landscape-section-area ------------------------- */
 #landscape-and-product-photography-section{
     padding: 18px; 
     overflow: hidden;
-    background:rgba(255,255,255, 0.3);
-    color: #000;
+    background: var(--web-color-theme);
     margin: auto;
+    padding-bottom: 20px;
      }
-.landscape-col-md-4-customs-styling{
-    margin: auto;
-    padding-bottom: 5px;
-    text-align: center;
-     }
+
 .image-div{
-    padding: 10px;
-}
-.product-image-div{
-    width: 30%;
-    height: 30%;
-}
+    padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    }
+
 .image-div .landscape-images{
-   height: 50%; 
    width: 100%;   
 }
-.image-div .product-images{
-      width: 70%;   
+
+.product-image-div{
+  width: 100%;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+.product-image-div .product-images{
+      width:100%;
+      
+      
 }
 .landscape-second-row{
     padding-top: 25px;
 }
+ #landscape-para-text{
+ color:var(--secondary-p-font-color);
+    margin: 0px;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: var(--p-font-family);
+}
 /*--------------------Video section Area (second section) ------------------------- */
 #video-section{
      height: 100vh;
-    background: coral;
+  background: var(--web-color-theme);
+    color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -232,7 +283,7 @@ font-weight: bold;
 #footer-section{
     padding: 28px; 
     overflow: hidden;
-    background: radial-gradient(circle, grey, white );
+  background: var(--web-color-theme);
     color: #000;
     margin: auto;
 }
@@ -431,6 +482,62 @@ font-weight: bold;
 }
 .col-settings{
     padding: 15px;
+}
+/*Contact-us*/
+.divider-div{
+    padding: 29px;
+   background-color:var(--nav-bar-bg-color);
+     opacity: 0.9;
+  
+}
+.contact-us-container{
+     height: 100vh;
+    background: url('../images/landscape/home-hero-image.jpg') bottom right fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    padding: 0;
+   
+    
+}
+.contact-us-col {
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#jumbotron-not-transparent h1 {
+    color:var(--h1-font-color);
+    opacity: 0.9;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 50px;
+    font-family: var(--h1-font-family);
+    padding: 0;
+    margin: 0;
+    }
+    #jumbotron-not-transparent h2{
+      text-align: left;
+    font-size: 40px;
+    font-family: var(--h1-font-family);
+    color:var(--h1-font-color);
+    padding: 0px;
+    
+    }
+#jumbotron-not-transparent{
+    background-color: rgba(3, 3, 3, 0.9)
+}
+.custom-form{
+    justify-content: center;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 580px) { 
