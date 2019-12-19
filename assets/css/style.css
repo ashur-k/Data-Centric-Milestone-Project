@@ -92,8 +92,7 @@ color: var(--nav-bar-items-hover-color);
 /*--------------------Hero first section Area ------------------------- */
 .index-hero-container {
     height: 100vh;
-    background: url('../images/landscape/home-hero-image.jpg') bottom right fixed;
-    background-repeat: no-repeat;
+    background: url('../images/landscape/home-hero-image.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,6 +101,7 @@ color: var(--nav-bar-items-hover-color);
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 .opaque-overlay {
     position: absolute;
@@ -147,7 +147,7 @@ font-weight: bold;
 }
 /* --------------------Wedding area section Area ------------------------- */
 #wedding-promo-section{
-    height: 100vh;
+    height: 120vh;
   background: var(--web-color-theme);
     color: #fff;
     -webkit-background-size: cover;
@@ -158,10 +158,13 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
+   
     
      }
-     .col-md-12 h1{
-         font-size: 42px;
+     
+    .wedding-h1-text{
+    font-size: 42px;
      }
      .wedding-para-text{
     color:var(--secondary-p-font-color);
@@ -224,6 +227,7 @@ font-weight: bold;
     background: var(--web-color-theme);
     margin: auto;
     padding-bottom: 20px;
+ 
      }
 
 .image-div{
@@ -258,7 +262,7 @@ font-weight: bold;
 }
 /*--------------------Video section Area (second section) ------------------------- */
 #video-section{
-     height: 100vh;
+     height: 100%;
   background: var(--web-color-theme);
     color: #fff;
     -webkit-background-size: cover;
@@ -269,11 +273,18 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
    
 }
 
+
 .video-container{
     padding-top: 5px;
+    
+}
+ .video-container iframe{
+    height: 630px;
+    width: 1120px;
 }
 .video-bg{
     width: 100%;
@@ -398,10 +409,10 @@ font-weight: bold;
     overflow-x: hidden;
 }
 
-/*Headshot page css*/
+/*--------------Headshot page css*-----------------*/
 .index-head-container{
     height: 100vh;
-     background: var(--web-color-theme);
+    background: var(--web-color-theme);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -410,9 +421,12 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    padding: 15px;
-   
+    position: relative; 
+    overflow: hidden;
+}
+#headshot-section{
+    padding: 0px;
+    margin: 0px;
 }
 .jumbotron {
     background-color: transparent;
@@ -426,7 +440,6 @@ font-weight: bold;
     margin-bottom: 0px;
     }
    
-
 .headshot-divider {
     width: 140px;
     height: 5px;
@@ -537,93 +550,62 @@ background: var(--web-color-theme);
 .custom-form{
     justify-content: center;
 }
-/*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 580px) { 
-    .jumbotron h1 {
-    
-    font-size: 60px;
-    }
-   .hide-on-small{
-       display: none;
-     }
-     .wedding-long-image{
-            height: 100vh;
-     }
-     .wedding-image-container{
-        height: 100vh;
-     }
-     .wedding-title-jumbotron {
-    height: 100vh;
-    background: transparent;
-    margin: 0px;
 
+/*-----------------Video pages ----------*/
+.video-hero-container {
+    height: 100vh;
+    background: url('../../award.png') bottom right fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
-.wedding-title-jumbotron .container .display-4 {
-    color: #000;
-    text-align: center;
-    text-shadow: none;
-   
-     margin: 0px;
-}
-.wedding-title-jumbotron .container .lead {
-    color: #000;
-    text-align: center;
-    background: none;
-    text-shadow: none;
-    font-size: 18px;
-    font-weight: bold;
-   margin: 5px;
-   letter-spacing: 2px;
-   word-spacing: 3px;
-   
-     
-}
-}
+/*Extra small devices (portrait phones, less than 576px)*/
+
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) { 
-    .hide-on-medium{
-       display: none;
-     }
- }
+
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 1536px) and (min-height: 864px) { 
-    #wedding-promo-section{
-        height: 150vh;
-    }
-    }
+
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-     .hide-on-large{
-       display: none;
-     }
- }
- @media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
-.hide-on-medium{
-       display: none;
-     }
- }
+
+
+@media only screen and (max-width: 767px) {
+    #logo{
+        letter-spacing: 2px;
+    }
+.index-head-container{
+    height: 100vh;
+    background: url('../images/headshots/3.jpg') bottom right fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    overflow: hidden;
+}
+.hide-on-small{
+    display: none;
+}
+.headshot-card-container{
+height: 100%;
+}
+ .video-container iframe{
+    width: 100%;
+    height: 100%;
 }
 
-
-
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
-and (min-device-width: 1366px)
-and (max-device-width: 1366px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
-.hide-on-medium{
-       display: none;
-     }
- }
+}
