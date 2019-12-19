@@ -8,7 +8,7 @@
 --nav-bar-active-underline-color:#fff;
 --nav-bar-active-items-color:orange;
 
---web-color-theme:#cdcdcd;
+--web-color-theme:radial-gradient(circle, #cdcdcd, white);
 --web-main-theme-color:#000;
 
 
@@ -487,7 +487,7 @@ font-weight: bold;
 .divider-div{
     padding: 29px;
    background-color:var(--nav-bar-bg-color);
-     opacity: 0.9;
+     opacity: 0.1;
   
 }
 .contact-us-container{
@@ -511,7 +511,7 @@ font-weight: bold;
     color: white;
     padding-top: 0px;
     margin-top: 0px;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -526,7 +526,7 @@ font-weight: bold;
     margin: 0;
     }
     #jumbotron-not-transparent h2{
-      text-align: left;
+    text-align: left;
     font-size: 40px;
     font-family: var(--h1-font-family);
     color:var(--h1-font-color);
@@ -534,7 +534,7 @@ font-weight: bold;
     
     }
 #jumbotron-not-transparent{
-    background-color: rgba(3, 3, 3, 0.9)
+    background-color: rgba(3, 3, 3, 0.7)
 }
 .custom-form{
     justify-content: center;
