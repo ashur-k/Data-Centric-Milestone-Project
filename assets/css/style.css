@@ -395,6 +395,22 @@ font-weight: bold;
 
 
 /*Landscape page page main container*/
+.landscape-hero-container{
+    
+    background: url('../images/landscape/landscape14.jpg') no-repeat bottom right fixed;
+    height: 100vh;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
 .landscape-main-container{
     height: 100vh;
     background: var(--web-color-theme);
@@ -406,25 +422,25 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
-  
-}
+    overflow: hidden;
+    padding: 10%;
+  }
 .landscape-image-container{
     width: 100%;
     height:100%;
-    padding: 40px;
-    overflow: hidden;
     margin: auto;
+    overflow: hidden;
+     
 }
 .landscape-text-container{
-    width: 100%;
-    height:100%;
-    padding: 50px;
+    width: 60%;
+    height:60%;
     margin: auto;
-   
-    }
+    overflow: hidden;
+     }
 .card-background{
     background: transparent;
+    overflow: hidden;
     color: black;
 }
 .card-title{
@@ -432,14 +448,14 @@ font-weight: bold;
 }
 
 .crd-header h1 {
-    line-height: 40px;
+   color: #000;
 }
 .crd-body h5 {
-    line-height: 40px;
-    font-size: 26px;
+    
+    font-size: 20px;
 }
 .crd-body p {
-    line-height: 40px;
+   
     font-size: 20px;
 }
 
@@ -640,6 +656,28 @@ height: 100%;
  .video-container iframe{
     width: 100%;
     height: 100%;
+}
+#lead{
+    font-size: 20px;
+}
+#h1{
+    font-size: 40px;
+}
+.headshots-para-text{
+    font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 1024px){
+    .headshots-para-text{
+    font-size: 20px;
+}
+
+}
+@media only screen and (min-width: 768px){
+    .headshots-para-text{
+    font-size: 20px;
 }
 
 }
