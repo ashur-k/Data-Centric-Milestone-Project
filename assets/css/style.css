@@ -52,7 +52,7 @@ body {
     color:var(--secondary-p-font-color);
     margin: 25px 0;
     font-size: 26px;
-    line-height: 42px;
+    line-height:32px;
     font-family: var(--p-font-family);
      }
 /*--------------------Header Area ------------------------- */
