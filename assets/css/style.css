@@ -398,7 +398,7 @@ font-weight: bold;
 .landscape-main-container{
     height: 100vh;
     background: var(--web-color-theme);
-      background-position: top center;
+    background-position: top center;
     background-size:contain; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -407,6 +407,40 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;
+  
+}
+.landscape-image-container{
+    width: 100%;
+    height:100%;
+    padding: 40px;
+    overflow: hidden;
+    margin: auto;
+}
+.landscape-text-container{
+    width: 100%;
+    height:100%;
+    padding: 50px;
+    margin: auto;
+   
+    }
+.card-background{
+    background: transparent;
+    color: black;
+}
+.card-title{
+    font-weight: bold;
+}
+
+.crd-header h1 {
+    line-height: 40px;
+}
+.crd-body h5 {
+    line-height: 40px;
+    font-size: 26px;
+}
+.crd-body p {
+    line-height: 40px;
+    font-size: 20px;
 }
 
 /*--------------Headshot page css*-----------------*/
