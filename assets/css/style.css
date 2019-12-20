@@ -41,7 +41,20 @@ body {
     font-family: var(--p-font-family);
    
 }
-
+/*--------------------Paragraph Stylings Area ------------------------- */
+.primary-heading-h1-styling{
+    font-size: 40px;
+    color: #000;
+    font-weight:1000;
+    letter-spacing: 4px;
+     }
+.primary-paragraph-styling{
+    color:var(--secondary-p-font-color);
+    margin: 25px 0;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: var(--p-font-family);
+     }
 /*--------------------Header Area ------------------------- */
 .navbar {
      
@@ -146,7 +159,7 @@ font-weight: bold;
    font-weight: bold;
 }
 /* --------------------Wedding area section Area ------------------------- */
-#wedding-promo-section{
+.wedding-promo-section{
     height: 120vh;
   background: var(--web-color-theme);
     color: #fff;
@@ -163,9 +176,7 @@ font-weight: bold;
     
      }
      
-    .wedding-h1-text{
-    font-size: 42px;
-     }
+    
      .wedding-para-text{
     color:var(--secondary-p-font-color);
     margin: 25px 0;
@@ -198,21 +209,9 @@ font-weight: bold;
     color: #fff;
     
 }
- .headshots-para-text, .video-para-text{
-    color:var(--secondary-p-font-color);
-    margin: 0px;
-    font-size: 26px;
-    line-height: 42px;
-    font-family: var(--p-font-family);
-     }
+ 
      
-    .headshots-para-text {
-    color:var(--secondary-p-font-color);
-    margin: 25px 0;
-    font-size: 26px;
-    line-height: 42px;
-    font-family: var(--p-font-family);
-     }
+  
 .carousel-text-styling{
    font-size: 22px;
    padding-bottom: 10px;
@@ -253,13 +252,7 @@ font-weight: bold;
 .landscape-second-row{
     padding-top: 25px;
 }
- #landscape-para-text{
- color:var(--secondary-p-font-color);
-    margin: 0px;
-    font-size: 26px;
-    line-height: 42px;
-    font-family: var(--p-font-family);
-}
+
 /*--------------------Video section Area (second section) ------------------------- */
 #video-section{
      height: 100%;
@@ -647,6 +640,10 @@ background: var(--web-color-theme);
     position: relative; 
     overflow: hidden;
 }
+.vh-150 {
+    height: 150vh;
+}
+
 .hide-on-small{
     display: none;
 }
@@ -661,7 +658,9 @@ height: 100%;
     font-size: 20px;
 }
 #h1{
-    font-size: 40px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
 }
 .headshots-para-text{
     font-size: 20px;
