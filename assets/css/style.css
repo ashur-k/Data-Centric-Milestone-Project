@@ -290,6 +290,7 @@ color: #fff;
     padding: 50px;
     overflow: hidden;
     }
+
 /*Landscape page page main container*/
 .landscape-hero-container{
     
@@ -394,27 +395,7 @@ color: #fff;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.jumbotron .lead {
-    color:var(--p-font-color);
-    margin:0;
-    font-size: 25px;
-    font-family: var(--p-font-family);
-    
-}
-.jumbotron h1:hover{
-font-weight: bold;
-}
-.jumbotron p:hover{
-   font-weight: bold;
-}
-.headshots-title{
-    padding-left:0px;
-    padding-right: 0px; 
-   
-    overflow: hidden;
-    height: 120vh;
-    background: var(--web-color-theme);
-}
+
 .head-shots-col{
 
    padding-left:0px;
@@ -422,24 +403,12 @@ font-weight: bold;
     padding-bottom:20px;
     margin-bottom: 20px; 
 }
-.image-gallery-1{
-  background: var(--web-color-theme);
-    padding-top: 0px;
-}
-.col-settings{
-    padding: 15px;
-}
 .headshot-card-container{
    background: var(--web-color-theme);
     height:200vh;
      padding-top: 10px;
 }
-.card-class{
-    margin-top:5px; 
-    padding-top:5px; 
-    background-color:transparent; 
-    border:none;
-}
+
 /*Contact-us*/
 .divider-div{
     padding: 29px;
