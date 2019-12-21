@@ -32,7 +32,6 @@
 
   --Wedding-services-color:green;
   }
-
 body {
     padding: 0;
     margin: 0;
@@ -41,6 +40,7 @@ body {
     font-family: var(--p-font-family);
    
 }
+
 /*--------------------Primary Header and Paragraph Stylings Area ------------------------- */
 .primary-heading-h1-styling{
     font-size: 40px;
@@ -375,9 +375,6 @@ color: #fff;
     padding: 0px;
     margin: 0px;
 }
-.jumbotron {
-    background-color: transparent;
-}
 #headshot-header-h1 {
     color:var(--h1-font-color);
     font-size:80px;
@@ -386,7 +383,6 @@ color: #fff;
      margin-top: 0px;
     margin-bottom: 0px;
     }
-   
 .headshot-divider {
     width: 140px;
     height: 5px;
@@ -395,9 +391,7 @@ color: #fff;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-
 .head-shots-col{
-
    padding-left:0px;
     padding-right: 0px; 
     padding-bottom:20px;
@@ -408,7 +402,6 @@ color: #fff;
     height:200vh;
      padding-top: 10px;
 }
-
 /*Contact-us*/
 .divider-div{
     padding: 29px;
