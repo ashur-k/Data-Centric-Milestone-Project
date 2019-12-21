@@ -56,31 +56,62 @@ body {
     line-height:32px;
     font-family: var(--p-font-family);
      }
-
-    /*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
-#video-section{
-     height: 100vh;
-    background: var(--web-color-theme);
-    color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
- }
+/*--------------------All Jumbotron Settings ------------------------- */
+.jumbotron {
+    background-color: transparent;
+}
+.jumbotron h1 {
+    color:var(--h1-font-color);
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-family: var(--h1-font-family);
+    }
+   
+.jumbotron h1 span {
+  color: var( --stand-out-color);
+    }
+.hr-divider {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: var(--hr-bg-color);
+}
+.jumbotron .lead {
+    color:var(--p-font-color);
+    margin: 25px 0;
+    font-size: 25px;
+    font-family: var(--p-font-family);
+    
+}
+.jumbotron h1:hover{
+font-weight: bold;
+}
+.jumbotron p:hover{
+   font-weight: bold;
+}
+/*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
 .video-container{
     padding-top: 15px;
+    overflow: hidden;
 }
  .video-bg{
     width: 100%;
     height: 100%;
 }
-
-
+.all-pages-video-title-text-container{
+ size: 100vh;
+ padding: 50px;
+background: var(--web-color-theme);
+ overflow: hidden;
+}
+.all-pages-video-containers{
+     background: var(--web-color-theme);
+    height: 100%;
+    padding: 50px;
+    overflow: hidden;
+  }
 /*--------------------Header Area ------------------------- */
 .navbar {
     opacity: 0.9;
@@ -149,40 +180,7 @@ color: var(--nav-bar-items-hover-color);
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.jumbotron {
-    background-color: transparent;
-}
-.jumbotron h1 {
-    color:var(--h1-font-color);
-    opacity: 0.9;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    font-size: 80px;
-    font-family: var(--h1-font-family);
-    }
-   
-.jumbotron h1 span {
-  color: var( --stand-out-color);
-    }
-.hr-divider {
-    width: 140px;
-    height: 5px;
-    border: 0;
-    background-color: var(--hr-bg-color);
-}
-.jumbotron .lead {
-    color:var(--p-font-color);
-    margin: 25px 0;
-    font-size: 25px;
-    font-family: var(--p-font-family);
-    
-}
-.jumbotron h1:hover{
-font-weight: bold;
-}
-.jumbotron p:hover{
-   font-weight: bold;
-}
+
 /* --------------------Wedding area section Area ------------------------- */
 .wedding-promo-section{
     height: 120vh;
@@ -197,19 +195,9 @@ font-weight: bold;
     justify-content: center;
     position: relative;
     overflow: hidden;
-   
-    
+  
      }
-     
-    
-     .wedding-para-text{
-    color:var(--secondary-p-font-color);
-    margin: 25px 0;
-    font-size: 26px;
-    line-height: 42px;
-    font-family: var(--p-font-family);
-     }
- .wedding-image{
+     .wedding-image{
     width: 100%;
     height: 100%;
     
@@ -235,8 +223,6 @@ font-weight: bold;
     
 }
  
-     
-  
 .carousel-text-styling{
    font-size: 22px;
    padding-bottom: 10px;
@@ -310,79 +296,11 @@ font-weight: bold;
     justify-content: center;
     position: relative;
 }
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 5;
-    column-gap: 10px;
-}
-
-#photo img{
-    width: 100%;
-}
-
-.wedding-jumbotron h1 {
-    color:var(--h1-font-color);
-    opacity: 0.9;
-    border-radius: 20px;
-    margin-bottom: 0px;
-    font-size: 80px;
-    font-family: var(--h1-font-family);
-    }
- .wedding-jumbotron h2 {
-    color:var(--Wedding-services-color);
-    opacity: 0.9;
-    border-radius: 20px;
-    margin-bottom: 0px;
-     margin-top: 0px;
-     padding:0px; 
-    font-size: 50px;
-    font-family: var(--h1-font-family);
-    }
-    .wedding-jumbotron h1 span {
-  color: var( --stand-out-color);
-    }
- 
-.wedding-jumbotron .lead {
-    color:var(--p-font-color);
-    margin: 25px 0;
-    font-size: 25px;
-    font-family: var(--p-font-family);
-    
-}
-.wedding-jumbotron h1:hover{
-font-weight: bold;
-}
-.wedding-jumbotron p:hover{
-   font-weight: bold;
-}
-.wedding-jumbotron h2:hover{
-   font-weight: bold;
-}
-/*Wediing page main container*/
-
-
-.jumbotron .container .display-4{
-    color: black;
-}
-.jumbotron .container .lead{
-    color: black;
-}
-
-
 .Landscape-images-container-fluid{
   background: var(--web-color-theme);
-    height: 120vh;
+    height: 100%;
     padding: 50px;
     }
-
-#wedding-page-video-title-text-containerr{
- size: 300vh;
- padding: 50px;
- background-color:black;
-
- overflow: hidden;
-}
 
 
 
@@ -541,8 +459,8 @@ font-weight: bold;
     padding: 29px;
    background-color:var(--nav-bar-bg-color);
      opacity: 0.1;
-  
-}
+     overflow: hidden;
+  }
 .contact-us-container{
      height: 100vh;
     background: url('../images/landscape/home-hero-image.jpg') bottom right fixed;
