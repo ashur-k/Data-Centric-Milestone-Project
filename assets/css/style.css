@@ -91,6 +91,18 @@ font-weight: bold;
 .jumbotron p:hover{
    font-weight: bold;
 }
+/*--------------------Primary Containers ------------------------- */
+.all-pages-title-text-container{
+height: 100vh;
+padding: 50px;
+background: var(--web-color-theme);
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
 /*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
 .video-container{
     padding-top: 15px;
@@ -276,10 +288,8 @@ color: #fff;
   background: var(--web-color-theme);
     height: 100%;
     padding: 50px;
+    overflow: hidden;
     }
-
-
-
 /*Landscape page page main container*/
 .landscape-hero-container{
     
