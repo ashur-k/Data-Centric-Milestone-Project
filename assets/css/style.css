@@ -96,11 +96,7 @@ font-weight: bold;
     padding-top: 15px;
     overflow: hidden;
 }
- .video-bg{
-    width: 100%;
-    height: 100%;
-}
-.all-pages-video-title-text-container{
+ .all-pages-video-title-text-container{
  size: 100vh;
  padding: 50px;
 background: var(--web-color-theme);
@@ -182,9 +178,9 @@ color: var(--nav-bar-items-hover-color);
 }
 
 /* --------------------Wedding area section Area ------------------------- */
-.wedding-promo-section{
+.wedding-promo-section-container{
     height: 120vh;
-  background: var(--web-color-theme);
+    background: var(--web-color-theme);
     color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -195,61 +191,45 @@ color: var(--nav-bar-items-hover-color);
     justify-content: center;
     position: relative;
     overflow: hidden;
-  
-     }
+       }
      .wedding-image{
     width: 100%;
     height: 100%;
-    
-    }
- .wedding-image img{
-    width: 100%;
-    height: 100%;
-   
- }
+        }
  .a-button-padding {
       margin-bottom: 15px;
-    
- }
+     }
 .carousel-item {
   transition-duration: 1s;
 }
 /* --------------------carousel-head-section-area ------------------------- */
-#headshots-section{
-    padding: 18px;
-    overflow: hidden;
-  background: var(--web-color-theme);
-    color: #fff;
-    
+.index-headshots-section-container{
+padding: 18px;
+overflow: hidden;
+background: var(--web-color-theme);
+color: #fff;
+    }
+/* --------------------Video-Index-section-area ------------------------- */
+.video-bg{
+    width: 100%;
+    height: 100%;
 }
- 
-.carousel-text-styling{
-   font-size: 22px;
-   padding-bottom: 10px;
-    
-}
-
-
 /* --------------------landscape-section-area ------------------------- */
-#landscape-and-product-photography-section{
+#landscape-and-product-photography-container{
     padding: 18px; 
     overflow: hidden;
     background: var(--web-color-theme);
     margin: auto;
     padding-bottom: 20px;
- 
-     }
-
+      }
 .image-div{
     padding-top: 15px;
     width: 100%;
     height: 100%;
     }
-
 .image-div .landscape-images{
    width: 100%;   
 }
-
 .product-image-div{
   width: 100%;
     border-radius: 50%;
@@ -257,14 +237,10 @@ color: var(--nav-bar-items-hover-color);
 }
 .product-image-div .product-images{
       width:100%;
-      
-      
-}
+   }
 .landscape-second-row{
     padding-top: 25px;
 }
-
-
 /*Footer Section=======*************************========*/
 #footer-section{
     padding: 28px; 
