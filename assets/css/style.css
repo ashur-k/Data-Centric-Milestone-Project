@@ -41,12 +41,13 @@ body {
     font-family: var(--p-font-family);
    
 }
-/*--------------------Paragraph Stylings Area ------------------------- */
+/*--------------------Primary Header and Paragraph Stylings Area ------------------------- */
 .primary-heading-h1-styling{
     font-size: 40px;
     color: #000;
     font-weight:1000;
     letter-spacing: 4px;
+    text-align: left;
      }
 .primary-paragraph-styling{
     color:var(--secondary-p-font-color);
@@ -55,10 +56,34 @@ body {
     line-height:32px;
     font-family: var(--p-font-family);
      }
+
+    /*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
+#video-section{
+     height: 100vh;
+    background: var(--web-color-theme);
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+ }
+.video-container{
+    padding-top: 15px;
+}
+ .video-bg{
+    width: 100%;
+    height: 100%;
+}
+
+
 /*--------------------Header Area ------------------------- */
 .navbar {
-     
-     opacity: 0.9;
+    opacity: 0.9;
      background: var(--web-color-theme);
     color: #000;
 }
@@ -253,36 +278,7 @@ font-weight: bold;
     padding-top: 25px;
 }
 
-/*--------------------Video section Area (second section) ------------------------- */
-#video-section{
-     height: 100%;
-  background: var(--web-color-theme);
-    color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-   
-}
 
-
-.video-container{
-    padding-top: 5px;
-    
-}
- .video-container iframe{
-    height: 630px;
-    width: 1120px;
-}
-.video-bg{
-    width: 100%;
-    height: 100%;
-}
 /*Footer Section=======*************************========*/
 #footer-section{
     padding: 28px; 
@@ -376,13 +372,16 @@ font-weight: bold;
 
 .Landscape-images-container-fluid{
   background: var(--web-color-theme);
-    height: 100vh;
-   
-   
-}
+    height: 120vh;
+    padding: 50px;
+    }
 
-.wedding-page-video-container{
-    padding-top: 0px;
+#wedding-page-video-title-text-containerr{
+ size: 300vh;
+ padding: 50px;
+ background-color:black;
+
+ overflow: hidden;
 }
 
 
@@ -607,6 +606,12 @@ background: var(--web-color-theme);
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
+}
+
+.video-container iframe{
+    height: 630px;
+    width: 1120px;
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 
@@ -664,6 +669,7 @@ height: 100%;
 }
 .headshots-para-text{
     font-size: 20px;
+    text-align: justify;
 }
 
 }
