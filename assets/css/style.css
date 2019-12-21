@@ -38,9 +38,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-family: var(--p-font-family);
-   
-}
-
+   }
 /*--------------------Primary Header and Paragraph Stylings Area ------------------------- */
 .primary-heading-h1-styling{
     font-size: 40px;
@@ -101,8 +99,22 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
-}
 
+}
+.all-container{
+height: 100vh;
+padding: 50px;
+background: var(--web-color-theme);
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.product-photo-container{
+background: #fff;
+
+}
 /*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
 .video-container{
     padding-top: 15px;
