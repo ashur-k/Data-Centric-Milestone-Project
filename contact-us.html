@@ -65,7 +65,7 @@
     <div class="container" style="margin:auto;">
     <div class="row">
         <div class="col-12 contact-us-col">
-            <section class="jumbotron" id="jumbotron-not-transparent"  text-center">
+            <section class="jumbotron text-center" id="jumbotron-not-transparent" >
                 <h1>Bend River <span>Media</span></h1>
                   <h2>Contact Us</h2>
                   <form>
@@ -119,9 +119,32 @@
     <label for="exampleFormControlTextarea1">Tell us About You</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+ <button type="button" class="btn btn-color" data-toggle="modal" data-target="#exampleModal">
+  Please send us you Information
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="background:#333;">
+        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" style="background:#333;">
+        We will contact you soon.
+      </div>
+      <div class="modal-footer"style="background:#333;">
+        <button type="button" class="btn btn-color" data-dismiss="modal">Close</button>
+              </div>
+    </div>
+  </div>
+</div>
   
 </form>
+
             </section>
         </div>
     </div>

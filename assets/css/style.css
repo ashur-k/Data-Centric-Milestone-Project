@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400i,700i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
 :root {
 
---nav-bar-bg-color:#000;
---nav-bar-items-color:rgb(18, 18, 19);
+--nav-bar-bg-color:#000000;
+--nav-bar-items-color:#fff;
 --nav-bar-items-hover-color:rgb(130, 183, 202);
 --dropdown-menu-item-bg-color:orange;
 --nav-bar-active-underline-color:#fff;
 --nav-bar-active-items-color:orange;
 
---web-color-theme:radial-gradient(circle, #2b2b2b, white);
---web-main-theme-color:#000;
+--web-color-theme:radial-gradient(circle, #626567, #fff);
+
 
 
 /*--nav-bar-logo-background: rgba(255, 0, 0, 0.6);*/
@@ -132,11 +132,17 @@ background: var(--web-color-theme);
     padding: 50px;
     overflow: hidden;
   }
+  /*--------------------All Pages Buttons ------------------------- */
+  .btn-color{
+      background: #000;
+      color:#fff;
+      opacity: 0.9;
+  }
 /*--------------------Header Area ------------------------- */
 .navbar {
     opacity: 0.9;
-     background: var(--web-color-theme);
-    color: #000;
+     background: var(--nav-bar-bg-color);
+
 }
 #logo{
     letter-spacing: 5px;
@@ -401,7 +407,7 @@ color: #fff;
     border: 0;
     background-color: var(--hr-bg-color);
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .head-shots-col{
    padding-left:0px;
@@ -465,11 +471,12 @@ color: #fff;
     
     }
 #jumbotron-not-transparent{
-background: var(--web-color-theme);
+background: #333;
 }
 .custom-form{
     justify-content: center;
 }
+
 
 /*-----------------Video pages ----------*/
 .video-hero-container {
