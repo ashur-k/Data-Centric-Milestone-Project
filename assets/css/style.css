@@ -39,13 +39,21 @@ body {
     color: #fff;
     font-family: var(--p-font-family);
    }
-/*--------------------Primary Header and Paragraph Stylings Area ------------------------- */
+/*--------------------All pages general-classes ------------------------- */
+.margin-auto{
+  margin:auto;
+}
+.margin-top{
+    margin-top: 25px;
+}
+/*-----------------all pages---Primary Header and Paragraph Stylings Area ------------------------- */
 .primary-heading-h1-styling{
     font-size: 40px;
     color: #000;
     font-weight:1000;
     letter-spacing: 4px;
     text-align: left;
+  
      }
 .primary-paragraph-styling{
     color:var(--secondary-p-font-color);
@@ -54,7 +62,14 @@ body {
     line-height:32px;
     font-family: var(--p-font-family);
      }
-/*--------------------All Jumbotron Settings ------------------------- */
+    .hr-divider {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: var(--hr-bg-color);
+}
+
+/*--------------------All pages Jumbotron Settings ------------------------- */
 .jumbotron {
     background-color: transparent;
 }
@@ -70,12 +85,7 @@ body {
 .jumbotron h1 span {
   color: var( --stand-out-color);
     }
-.hr-divider {
-    width: 140px;
-    height: 5px;
-    border: 0;
-    background-color: var(--hr-bg-color);
-}
+
 .jumbotron .lead {
     color:var(--p-font-color);
     margin: 25px 0;
@@ -89,7 +99,7 @@ font-weight: bold;
 .jumbotron p:hover{
    font-weight: bold;
 }
-/*--------------------Primary Containers ------------------------- */
+/*-------------------all pages-Primary Containers ------------------------- */
 .all-pages-title-text-container{
 height: 100vh;
 padding: 50px;
@@ -99,27 +109,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
-
 }
-.all-container{
-height: 100vh;
-padding: 50px;
-background: var(--web-color-theme);
-overflow: hidden;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
-}
-.product-photo-container{
-background: #fff;
-
-}
-/*--------------------Video section Area (General Video contaienr Settings for all pages) ------------------------- */
 .video-container{
     padding-top: 15px;
     overflow: hidden;
-}
+}video-hero-container
  .all-pages-video-title-text-container{
  size: 100vh;
  padding: 50px;
@@ -137,8 +131,9 @@ background: var(--web-color-theme);
       background: #000;
       color:#fff;
       opacity: 0.9;
+      margin: 10px;
   }
-/*--------------------Header Area ------------------------- */
+/*--------------------all pages Header Area ------------------------- */
 .navbar {
     opacity: 0.9;
      background: var(--nav-bar-bg-color);
@@ -184,7 +179,7 @@ color: var(--nav-bar-items-hover-color);
  .dropdown-menu-item-bg-color a:hover{
     background-color: var(--dropdown-menu-item-bg-color);
     }
-/*--------------------Hero first section Area ------------------------- */
+/*--------------------index page -Hero first section Area ------------------------- */
 .index-hero-container {
     height: 100vh;
     background: url('../images/landscape/home-hero-image.jpg') no-repeat bottom right fixed;
@@ -207,15 +202,11 @@ color: var(--nav-bar-items-hover-color);
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* --------------------Wedding area section Area ------------------------- */
+/* -------------------index page-Wedding area section Area ------------------------- */
 .wedding-promo-section-container{
     height: 120vh;
     background: var(--web-color-theme);
     color: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,19 +223,20 @@ color: var(--nav-bar-items-hover-color);
 .carousel-item {
   transition-duration: 1s;
 }
-/* --------------------carousel-head-section-area ------------------------- */
+/* ------------------index page--carousel-head-section-area ------------------------- */
 .index-headshots-section-container{
 padding: 18px;
 overflow: hidden;
 background: var(--web-color-theme);
 color: #fff;
     }
-/* --------------------Video-Index-section-area ------------------------- */
+/* ------------------index page--Video-Index-section-area ------------------------- */
 .video-bg{
     width: 100%;
     height: 100%;
+    margin-bottom: 25px;
 }
-/* --------------------landscape-section-area ------------------------- */
+/* -------------------index page-landscape-section-area ------------------------- */
 #landscape-and-product-photography-container{
     padding: 18px; 
     overflow: hidden;
@@ -271,11 +263,11 @@ color: #fff;
 .landscape-second-row{
     padding-top: 25px;
 }
-/*Footer Section=======*************************========*/
+/*all pages-Footer Section=======*************************========*/
 #footer-section{
     padding: 28px; 
     overflow: hidden;
-  background: var(--web-color-theme);
+    background: var(--web-color-theme);
     color: #000;
     margin: auto;
 }
@@ -286,10 +278,22 @@ color: #fff;
 .about-us-p{
       font-size: 18px;
 }
+#Contact-us{
+    font-size: 60px;
+}
+.contact-us-footer-paragraph{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+mark{
+  font-size: 15px;  
+}
 
 
 /*Wedding Page=======*************************========*/
-/*--------------------Hero first section Area ------------------------- */
+/*----------------Wedding Page----Hero first section Area ------------------------- */
 .wedding-page-callout-container {
     height: 100vh;
     background: url('../images/wedding-images/wedding15.jpg') no-repeat bottom right fixed;
@@ -303,13 +307,14 @@ color: #fff;
     position: relative;
 }
 .Landscape-images-container-fluid{
-  background: var(--web-color-theme);
+    background: var(--web-color-theme);
     height: 100%;
     padding: 50px;
     overflow: hidden;
     }
 
-/*Landscape page page main container*/
+/*Landscape page=======*************************========*/
+/*----------------Landscape page----Hero first section Area ------------------------- */
 .landscape-hero-container{
     
     background: url('../images/landscape/landscape14.jpg') no-repeat bottom right fixed;
@@ -324,21 +329,14 @@ color: #fff;
     position: relative;
     overflow: hidden;
 }
-
-
 .landscape-main-container{
     height: 100vh;
     background: var(--web-color-theme);
-    background-position: top center;
-    background-size:contain; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding: 10%;
+    padding: 5%;
   }
 .landscape-image-container{
     width: 100%;
@@ -353,15 +351,13 @@ color: #fff;
     margin: auto;
     overflow: hidden;
      }
+
+/* --------------------Landscape Image-1 section Area -----------landscape2.jpg-------------- */
 .card-background{
     background: transparent;
     overflow: hidden;
     color: black;
 }
-.card-title{
-    font-weight: bold;
-}
-
 .crd-header h1 {
    color: #000;
 }
@@ -373,7 +369,6 @@ color: #fff;
    
     font-size: 20px;
 }
-
 /*--------------Headshot page css*-----------------*/
 .index-head-container{
     height: 100vh;
@@ -493,7 +488,6 @@ background: #333;
     position: relative;
     overflow: hidden;
 }
-
 .video-container iframe{
     height: 630px;
     width: 1120px;
@@ -556,7 +550,17 @@ height: 100%;
     font-size: 20px;
     text-align: justify;
 }
-
+.primary-heading-h1-styling{
+      font-size: 30px;
+    line-height:32px;
+     letter-spacing: 2px;
+   
+}
+.primary-paragraph-styling{
+    font-size: 18px;
+   
+    line-height:32px;
+}
 }
 
 @media only screen and (max-width: 1024px){
