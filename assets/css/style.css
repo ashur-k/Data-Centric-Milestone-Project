@@ -287,8 +287,15 @@ color: #fff;
     text-align: center;
     line-height: 50px;
 }
-mark{
-  font-size: 15px;  
+.font-swsome-div{
+    line-height: 20px;
+    font-size: 22px;
+}
+.font-aswsome-footer-links{
+border-radius: 50%;
+background: #fff;
+padding: 5px;
+font-size: 22px;
 }
 
 
