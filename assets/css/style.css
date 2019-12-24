@@ -475,13 +475,19 @@ background: #333;
 /*all pages-Footer Section=======*************************========*/
 #footer-section{
     overflow: hidden;
-
+    height: 50vh;
     background: var(--nav-bar-bg-color);
-    opacity: 0.8;
+    opacity: 0.9;
     border: 2px solid #000;
     margin-bottom: 5px;
-    height: auto;
-   color: #000;
+   
+    color: #000;
+  }
+  .about-us-paragraph{
+      line-height: 30px;
+      word-spacing: 1px;
+      letter-spacing: .5px;
+      font-size: 18px;
   }
 
 .footer-headings{
