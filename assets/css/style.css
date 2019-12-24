@@ -475,37 +475,36 @@ background: #333;
 /*all pages-Footer Section=======*************************========*/
 #footer-section{
     overflow: hidden;
-    opacity: 0.9;
+
     background: var(--nav-bar-bg-color);
+    opacity: 0.8;
     border: 2px solid #000;
     margin-bottom: 5px;
     height: auto;
-   
+   color: #000;
   }
 
 .footer-headings{
-    font-size:22px;
-    padding-bottom:3px; 
+    
+   
     color: #fff;
 }
 .contact-us-paragraph{
-    line-height: 10px;
+   
 }
 .social-links-icon{
-    font-size:28px; 
-    margin-right: 15px; 
+    
+   
 }
 .social-links-icon i{
     color: #fff;
 }
 .about-us-paragraph{
-    font-size: 16px;
-    line-height: 25px;
-    word-spacing: 2px;
+  
     color: #fff;
 }
 .about-us-headings{
-   font-size: 16px;
+ 
    color: #fff;
 }
 
