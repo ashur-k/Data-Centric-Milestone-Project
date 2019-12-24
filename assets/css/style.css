@@ -113,7 +113,7 @@ position: relative;
 .video-container{
     padding-top: 15px;
     overflow: hidden;
-}video-hero-container
+}
  .all-pages-video-title-text-container{
  size: 100vh;
  padding: 50px;
@@ -135,9 +135,8 @@ background: var(--web-color-theme);
   }
 /*--------------------all pages Header Area ------------------------- */
 .navbar {
-    opacity: 0.9;
+        opacity: 0.9;
      background: var(--nav-bar-bg-color);
-
 }
 #logo{
     letter-spacing: 5px;
@@ -154,7 +153,7 @@ background: var(--web-color-theme);
     }
 .navbar-menu-items{
     color: var( --nav-bar-items-color);
-    font-size: 18px;
+    font-size: 20px;
 }
 .navbar-menu-items:hover{
 font-weight: bold;
@@ -263,58 +262,8 @@ color: #fff;
 .landscape-second-row{
     padding-top: 25px;
 }
-/*all pages-Footer Section=======*************************========*/
-#footer-section{
-    overflow: hidden;
-    background: var(--web-color-theme);
- 
-    margin-bottom: 10px;
-  
-}
-.footer-body-container{
-    background: #fff;
-    height: 35vh;
-    padding: 15px;
-    margin: auto;
-color: #000;
-    
-    
-}
-.footer-body-container h2{
-    font-size: 28px;
-    font-weight: bold;
-       background-color: #CDCDCD;
-   
-       padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
-.footer-body-container h6 {
-    font-size: 20px;
-    
-    line-height: 22px;
-      padding: 10px;
-}
+/*----------------Wedding Page-----------------------*/
 
-.footer-body-container p {
-    font-size: 24px;
-    word-spacing: 2px;
-    line-height: 28px;
-      padding: 10px;
-}
-.font-aswsome-footer-links{
-      border-radius: 50%;
-      background: #fff;
-          font-size: 30px;
-          
-}
-.font-aswsome-footer-links i{
-    color: #000;
-     border-radius: 50%;
-     padding: 25px;
-}
-/*Wedding Page=======*************************========*/
-/*----------------Wedding Page----Hero first section Area ------------------------- */
 .wedding-page-callout-container {
     height: 100vh;
     background: url('../images/wedding-images/wedding15.jpg') no-repeat bottom right fixed;
@@ -333,11 +282,90 @@ color: #000;
     padding: 50px;
     overflow: hidden;
     }
+/*-----------------Video pages ----------*/
+.video-hero-container {
+    height: 100vh;
+    background: url('../../award.png') bottom right fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.video-container iframe{
+    height: 630px;
+    width: 1120px;
+}
 
-/*Landscape page=======*************************========*/
-/*----------------Landscape page----Hero first section Area ------------------------- */
+/*--------------Headshot page css*-----------------*/
+.headshot-title-container{
+    height: 100vh;
+    background: url(../images/headshots/1.jpg), url(../images/headshots/8.jpg), url(../images/headshots/9.jpg); 
+    background-attachment: fixed;
+    background-size: 33.5%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top 100px left, top 100px  right, top 100px  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+#headshot-section{
+    padding: 0px;
+    margin: 0px;
+}
+#headshot-header-h1 {
+    color:var(--h1-font-color);
+    font-size:80px;
+    font-family: var(--h1-font-family);
+    padding-top: 25px;
+     margin-top: 0px;
+    margin-bottom: 0px;
+    }
+.headshot-divider {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: var(--hr-bg-color);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.head-shots-col{
+   padding-left:0px;
+    padding-right: 0px; 
+    padding-bottom:20px;
+    margin-bottom: 20px; 
+}
+.headshot-card-container{
+   background: var(--web-color-theme);
+   height: 100%;
+     padding-top: 10px;
+}
+/*----------------Product photography page---------------------------------*/
+.product-photography-title-container{
+    height: 100vh;
+    background: url(../images/products-photography/4product.jpg), url(../images/products-photography/3product.jpg), url(../images/products-photography/1product.jpg); 
+    background-attachment: fixed;
+    background-size: 33.5%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top 100px left, top 100px  right, top 100px  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+ 
+}
+/*----------------Landscape page---------------------------------*/
 .landscape-hero-container{
-    
     background: url('../images/landscape/landscape14.jpg') no-repeat bottom right fixed;
     height: 100vh;
    -webkit-background-size: cover;
@@ -372,8 +400,6 @@ color: #000;
     margin: auto;
     overflow: hidden;
      }
-
-/* --------------------Landscape Image-1 section Area -----------landscape2.jpg-------------- */
 .card-background{
     background: transparent;
     overflow: hidden;
@@ -389,52 +415,6 @@ color: #000;
 .crd-body p {
    
     font-size: 20px;
-}
-/*--------------Headshot page css*-----------------*/
-.index-head-container{
-    height: 100vh;
-    background: var(--web-color-theme);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative; 
-    overflow: hidden;
-}
-#headshot-section{
-    padding: 0px;
-    margin: 0px;
-}
-#headshot-header-h1 {
-    color:var(--h1-font-color);
-    font-size:80px;
-    font-family: var(--h1-font-family);
-    padding-top: 25px;
-     margin-top: 0px;
-    margin-bottom: 0px;
-    }
-.headshot-divider {
-    width: 140px;
-    height: 5px;
-    border: 0;
-    background-color: var(--hr-bg-color);
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-.head-shots-col{
-   padding-left:0px;
-    padding-right: 0px; 
-    padding-bottom:20px;
-    margin-bottom: 20px; 
-}
-.headshot-card-container{
-   background: var(--web-color-theme);
-    height:200vh;
-     padding-top: 10px;
 }
 /*Contact-us*/
 .divider-div{
@@ -492,27 +472,43 @@ background: #333;
 .custom-form{
     justify-content: center;
 }
-
-
-/*-----------------Video pages ----------*/
-.video-hero-container {
-    height: 100vh;
-    background: url('../../award.png') bottom right fixed;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+/*all pages-Footer Section=======*************************========*/
+#footer-section{
     overflow: hidden;
+    opacity: 0.9;
+    background: var(--nav-bar-bg-color);
+    border: 2px solid #000;
+    margin-bottom: 5px;
+    height: auto;
+   
+  }
+
+.footer-headings{
+    font-size:22px;
+    padding-bottom:3px; 
+    color: #fff;
 }
-.video-container iframe{
-    height: 630px;
-    width: 1120px;
+.contact-us-paragraph{
+    line-height: 10px;
 }
+.social-links-icon{
+    font-size:28px; 
+    margin-right: 15px; 
+}
+.social-links-icon i{
+    color: #fff;
+}
+.about-us-paragraph{
+    font-size: 16px;
+    line-height: 25px;
+    word-spacing: 2px;
+    color: #fff;
+}
+.about-us-headings{
+   font-size: 16px;
+   color: #fff;
+}
+
 /*Extra small devices (portrait phones, less than 576px)*/
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -582,11 +578,33 @@ height: 100%;
    
     line-height:32px;
 }
+
+#footer-section{
+    height: 80vh;
+}
+.footer-headings{
+     margin-top: 10px;
+    margin-bottom: 15px;
+}
 }
 
 @media only screen and (max-width: 1024px){
     .headshots-para-text{
     font-size: 20px;
+}
+.headshot-title-container{
+    height: 100vh;
+    background: url(../images/headshots/1.jpg); 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+ 
 }
 
 }
