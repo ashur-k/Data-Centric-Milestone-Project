@@ -133,6 +133,48 @@ background: var(--web-color-theme);
       opacity: 0.9;
       margin: 10px;
   }
+  .btn-color{
+      
+      margin: 10px;
+      position:relative;
+        overflow: hidden;
+      font-weight:700;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 1rem 2rem;
+
+        }
+    .btn-color::before{
+        content: '';
+        position:absolute;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+        background: rgb(12, 12, 12);
+        border: 2px solid #DAA520;;
+        z-index: -1;
+
+    }
+    .btn-color::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        background: rgb(255, 165, 47);
+        transform: rotate(0deg) translate(-75%, 500%);
+        /*transform-origin: top left;*/
+        transition: transform 600ms;
+        z-index: -2;
+    }
+  .btn-color:hover::after{
+        background-color: #fff;
+        transform: rotate(0deg) translate(0, 0);
+      
+        
+    }
 /*--------------------all pages Header Area ------------------------- */
 .navbar {
         opacity: 0.9;
@@ -475,7 +517,7 @@ background: #333;
 /*all pages-Footer Section=======*************************========*/
 #footer-section{
     overflow: hidden;
-    height: 50vh;
+
     background: var(--nav-bar-bg-color);
     opacity: 0.9;
     border: 2px solid #000;
@@ -483,6 +525,50 @@ background: #333;
    
     color: #000;
   }
+  .footer-headings{
+      text-align: center;
+  }
+  .footer-headings::before{
+      content: '';
+ 
+      
+      background: rgb(226, 168, 7);
+    
+      display: block;
+       width: 2px;
+     
+      height: 10%;
+  }
+  .footer-headings::after{
+      content: '';
+ 
+         background: rgb(226, 168, 7);
+    
+      display: block;
+      width: 100%;
+      height: 1px;
+  }
+  
+   .aaa::after{
+      content: '';
+ 
+         background: rgb(226, 168, 7);
+    
+      display: block;
+      width: 100%;
+      height: 1px;
+  }
+  .aaa::before{
+      content: '';
+ 
+         background: rgb(226, 168, 7);
+    
+      display: block;
+     
+  }
+ 
+ 
+ 
   .about-us-paragraph{
       line-height: 30px;
       word-spacing: 1px;
