@@ -131,19 +131,17 @@ background: var(--web-color-theme);
       background: #000;
       color:#fff;
       opacity: 0.9;
-      margin: 10px;
-  }
-  .btn-color{
+      margin: 0px;
       
-      margin: 10px;
       position:relative;
         overflow: hidden;
       font-weight:700;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 1rem 2rem;
+      padding: .5rem 1rem;
 
-        }
+  }
+ 
     .btn-color::before{
         content: '';
         position:absolute;
@@ -404,8 +402,7 @@ color: #fff;
     justify-content: center;
     position: relative;
     overflow: hidden;
- 
-}
+ }
 /*----------------Landscape page---------------------------------*/
 .landscape-hero-container{
     background: url('../images/landscape/landscape14.jpg') no-repeat bottom right fixed;
@@ -460,10 +457,12 @@ color: #fff;
 }
 /*Contact-us*/
 .divider-div{
-    padding: 29px;
+
+    padding-bottom:40px; 
    background-color:var(--nav-bar-bg-color);
-     opacity: 0.1;
+     opacity: 0.9;
      overflow: hidden;
+     position: fixed;
   }
 .contact-us-container{
      height: 100vh;
@@ -527,23 +526,26 @@ background: #333;
   }
   .footer-headings{
       text-align: center;
+      margin-bottom: 10px;
   }
+  .footer-headings{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer-headings h5{
+ font-weight: bolder;
+}
+
   .footer-headings::before{
       content: '';
- 
-      
-      background: rgb(226, 168, 7);
-    
+      background: rgb(34, 33, 32);
       display: block;
-       width: 2px;
-     
+      width: 2px;
       height: 10%;
   }
   .footer-headings::after{
       content: '';
- 
-         background: rgb(226, 168, 7);
-    
+      background: rgb(56, 56, 55);
       display: block;
       width: 100%;
       height: 1px;
@@ -561,35 +563,23 @@ background: #333;
   .aaa::before{
       content: '';
  
-         background: rgb(226, 168, 7);
+         background: rgb(87, 86, 83);
     
       display: block;
      
   }
- 
- 
- 
-  .about-us-paragraph{
+   .about-us-paragraph{
       line-height: 30px;
       word-spacing: 1px;
       letter-spacing: .5px;
       font-size: 18px;
   }
 
-.footer-headings{
-    
-   
-    color: #fff;
-}
-.contact-us-paragraph{
-   
-}
-.social-links-icon{
-    
-   
-}
+
+
 .social-links-icon i{
     color: #fff;
+    font-size: 26px;
 }
 .about-us-paragraph{
   
@@ -598,6 +588,12 @@ background: #333;
 .about-us-headings{
  
    color: #fff;
+}
+.social-links{
+    margin-bottom: 0px;
+}
+.social-links-icon{
+    padding-left:15px; 
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -632,6 +628,19 @@ background: #333;
     position: relative; 
     overflow: hidden;
 }
+.product-photography-title-container{
+    height: 100vh;
+    background: url(../images/products-photography/1product.jpg); 
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 100px left, top 100px  right, top 100px  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+ }
 .vh-150 {
     height: 150vh;
 }
@@ -671,7 +680,7 @@ height: 100%;
 }
 
 #footer-section{
-    height: 80vh;
+    height: 100%;
 }
 .footer-headings{
      margin-top: 10px;
