@@ -139,15 +139,15 @@
 	</div>
 <!--/* ---------------------headshot-section-area ------------------------- */-->
     <div class="container-fluid index-headshots-section-container">
-	    <div class="row">
-			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 col-xl-4">
+	    <div class="row justify-content-center">
+			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 col-xl-4 hide-on-small">
 				<div id="male-carousel-headshots" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#male-carousel-headshots" data-slide-to="0" class="active"></li>
 						<li data-target="#male-carousel-headshots" data-slide-to="1"></li>
 						<li data-target="#male-carousel-headshots" data-slide-to="2"></li>
 					</ol>
-				<div class="carousel-inner hide-on-small">
+				<div class="carousel-inner ">
 						<div class="carousel-item active">
 							<img src="assets/images/headshots/9.jpg" class="d-block" style="width:100%"; height="100%; border:2px solid red"  alt="...">
                         </div>
@@ -168,7 +168,7 @@
 				</a>
 			</div>
 		</div>
-			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 col-xl-4 align-self-center">
+			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-12 col-xl-4 ">
 				<h1 class="primary-heading-h1-styling">Professional headshots</h1><hr class="general-hr">
 				<p class="primary-paragraph-styling"> 
             I am equipped and trained to provide both traditional,
@@ -178,7 +178,7 @@
                 Headshots Gallery
                 </button>
 			</div>
-			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 col-xl-4">
+			<div class="col-xs-4 col-sm-4 col-md-12 col-lg-9 col-xl-4">
 				<div id="female-carousel-headshots" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#female-carousel-headshots" data-slide-to="0" class="active"></li>
@@ -230,8 +230,8 @@
 		    </div>
 		</div>
 	    <div class="container">
-		    <div class="row">
-			    <div class="col-md-4 margin-auto">
+		    <div class="row justify-content-center">
+			    <div class="col-xs-4 col-sm-4 col-md-12 col-lg-5 col-xl-5 margin-auto">
 				<div class="landscape-text-div">
 					<h1 class="primary-heading-h1-styling">Product Photos</h1><hr class="general-hr">
 					<p class="primary-paragraph-styling">I am dedicated to creating the image which best represents your product,
@@ -239,11 +239,11 @@
                      the features of your product, we are happy to embrace the task.
 					</p>
 					<button type="button" class="btn btn-color" onclick="window.location.href = 'productphotography.html';">
-                    Landscape Photos Gallery
+                    Product Photos Gallery
                     </button>
 				</div>
 			</div>
-            <div class="col-md-8">
+            <div class="col-xs-4 col-sm-4 col-md-12 col-lg-7 col-xl-7">
                 <div class="product-image-div">
 					<img src="assets/images/products-photography/1product.jpg" class="product-images"   alt="Responsive image">
             </div>
@@ -279,8 +279,10 @@
 <!--/* --------------------Footer-section-area -----------------------  -- */-->
 <footer class="container-fluid" id="footer-section">
     <div class="row">
-      <div class="col-xs-4 col-sm-4 col-md-12 col-lg-6 col-xl-6">
-            <h5 class="uppercase footer-headings" id="Social Media" >About-Us</h5>
+      <div class="col-xs-4 col-sm-4 col-md-12 col-lg-4 col-xl-6">
+          <div class="footer-headings">
+            <h5 class="uppercase" id="Social Media" >About-Us</h5>
+          </div>
                 <p class="inline-block about-us-paragraph">
                     We are a newly established, upcoming media business, 
                     built on a solid foundation of experience and skill. 
@@ -291,8 +293,10 @@
                     affordable price.
                 </p>
         </div>
-     <div class="col-xs-4 col-sm-4 col-md-6 col-lg-3 col-xl-3">
-            <h5 class="uppercase general-sub footer-headings" id="Social Media">Find-Us On Social Media</h5>
+     <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-3">
+     <div class="footer-headings">
+            <h5 class="uppercase general-sub " id="Social Media">Find-Us On Social Media</h5>
+     </div>
                  <ul class="list-inline social-links">
                     <li class="list-inline-item">
                     <a class="social-links-icon" href="https://www.facebook.com/" target="_blank">
@@ -334,7 +338,9 @@
         </div>
         
         <div class="col-xs-4 col-sm-4 col-md-6 col-lg-4 col-xl-3">
-            <h5 class="uppercase general-sub footer-headings" id="Social Media">Contact-Us</h5>
+            <div class="footer-headings">
+            <h5 class="uppercase general-sub" id="Social Media">Contact-Us</h5>
+            </div>
                     <h6 class="inline-block about-us-headings">Mobile:07397325523</h6>
                     <h6 class="inline-block about-us-headings">Email:ashurkanwal@yahoo.com</h6>
                     <h6 class="inline-block about-us-headings"> Landline:01642645418</h6>
@@ -351,10 +357,6 @@
            
      
 </footer>
-  <!--/* --------------------Script-section-area ------------------------- */-->
-
-
-
 <!--/* --------------------Script-section-area -----------------------  -- */-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
