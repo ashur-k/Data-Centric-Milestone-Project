@@ -20,17 +20,17 @@ Ben Diver is a creative photographer and videographer and winner of the Royal Te
 ### •	As an interior decorator working in the commercial sector, I need inspiring and calming landscape images.
 The aim of the website is to market Ben’s services and to help him to generate business. Ben and I looked at different websites which provide similar services to Ben’s business. I needed to get ideas of how he wanted his website to look and soon realised he wanted something visually simple and easy to navigate. Ben wanted separate web pages for each of the different services he provides. For this reason, designing the navigation of the website was a challenge. I wanted web users to find the services they were looking for easily and after taking feedback on several different versions I decided on the current one, which is simple, stylish and easy to read. I used Balsamiq Mockups 3 and made a wireframe design and Ben and I agreed on this final design.
 # Features
-## 1.	The website markets the full range of Ben’s services. It is designed to be time efficient for web users. 
-## 2.	Each section provides links to the main page of that particular service.
-## 3.	To make the website consistent each service page has an introductory hero section with a fixed background image.
-## 4.	Each of these pages has a link to a contact form.
-## 5.	The BRM website has a fixed navigation bar at the top of each page, which gives users full control over navigation.
-## 6.	The BRM website design is device responsive, it’s designed for mobile, tablet and large screen devices.
-## 7.	BRM has a web form which helps users to send information.
-## 8.	BRM customers are also provided with social media links where they can find more information.
+### 1.	The website markets the full range of Ben’s services. It is designed to be time efficient for web users. 
+### 2.	Each section provides links to the main page of that particular service.
+### 3.	To make the website consistent each service page has an introductory hero section with a fixed background image.
+### 4.	Each of these pages has a link to a contact form.
+### 5.	The BRM website has a fixed navigation bar at the top of each page, which gives users full control over navigation.
+### 6.	The BRM website design is device responsive, it’s designed for mobile, tablet and large screen devices.
+### 7.	BRM has a web form which helps users to send information.
+### 8.	BRM customers are also provided with social media links where they can find more information.
 # Features Left to Implement
 At the moment there is no custom script applied to any section of the website. In particular the form modal is not functioning correctly and needs scripting in order to be complete. In the future I will implement data validation and form submission. 
-### Technologies Used
+# Technologies Used
 ### •	HTMI5 to implement website project.
 ### •	CSS3 to implement website project.
 ### •	GIT POD online web workspace for HTML & CSS coding.
