@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400i,700i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
 :root {
 
 --nav-bar-bg-color:#000000;
 --nav-bar-items-color:#fff;
 --nav-bar-items-hover-color:rgb(130, 183, 202);
---dropdown-menu-item-bg-color:orange;
+--dropdown-menu-item-bg-color:#DAA520;
 --nav-bar-active-underline-color:#fff;
---nav-bar-active-items-color:orange;
-
+--nav-bar-active-items-color:#DAA520;
+ --stand-out-color: #DAA520;
+  --hr-bg-color: #FF4500;
 --web-color-theme:radial-gradient(circle, #f5f5f5, 	#FFFAFA, #fff);
 
 
@@ -17,26 +19,19 @@
 --dropdown-menu-list-items-color:#fff;
 
   --h1-font-color:#fff; 
+  --h3-font-color:#fff;
   --p-font-color:#fff;
-    --secondary-p-font-color:#000;
-  --h1-font-family:Roboto;
-  --p-font-family:Lato;
+ --secondary-p-font-color:#000;
 
-  --font-bg-color: #8B0000;
-  --stand-out-color: #DAA520;
+  --h1-font-family:'Quicksand';
+  --p-font-family:'Quicksand';
 
-  --hr-bg-color: #FF4500;
-
-  --text-hover-color: #BDB76B;
-  --text-hover-bg-color: #DCDCDC;
-
-  --Wedding-services-color:green;
+ 
   }
 body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: #fff;
     font-family: var(--p-font-family);
    }
 /*--------------------All pages general-classes ------------------------- */
@@ -53,12 +48,14 @@ body {
     font-weight:1000;
     letter-spacing: 4px;
     text-align: left;
-  
+    font-family: var(--h1-font-family);
+    
      }
 .primary-paragraph-styling{
     color:var(--secondary-p-font-color);
     margin: 25px 0;
-    font-size: 26px;
+    font-size: 22px;
+    font-weight: 300;
     line-height:32px;
     font-family: var(--p-font-family);
      }
@@ -68,7 +65,18 @@ body {
     border: 0;
     background-color: var(--hr-bg-color);
 }
-
+.general-hr{
+    color: rgb(10, 10, 10);
+    height: 5px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+.h3-styling{
+    color:var(--h3-font-color);
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
 /*--------------------All pages Jumbotron Settings ------------------------- */
 .jumbotron {
     background-color: transparent;
@@ -77,7 +85,7 @@ body {
     color:var(--h1-font-color);
     opacity: 0.9;
     border-radius: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 80px;
     font-family: var(--h1-font-family);
     }
@@ -96,19 +104,19 @@ body {
 .jumbotron h1:hover{
 font-weight: bold;
 }
-.jumbotron p:hover{
+.jumbotron h3:hover{
    font-weight: bold;
 }
 /*-------------------all pages-Primary Containers ------------------------- */
 .all-pages-title-text-container{
 height: 100vh;
-padding: 50px;
 background: var(--web-color-theme);
 overflow: hidden;
 display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
+ 
 }
 .video-container{
     padding-top: 15px;
@@ -123,12 +131,15 @@ height: 100%;
  padding: 50px;
 background: var(--web-color-theme);
  overflow: hidden;
+ 
+
 }
 .all-pages-video-containers{
      background: var(--web-color-theme);
     height: 100%;
     padding: 50px;
     overflow: hidden;
+    
   }
   /*--------------------All Pages Buttons ------------------------- */
   .btn-color{
@@ -136,11 +147,10 @@ background: var(--web-color-theme);
       color:#fff;
       opacity: 0.9;
       margin: 0px;
-      
+      font-family: var(--p-font-family);
       position:relative;
-        overflow: hidden;
-      font-weight:700;
-      text-transform: uppercase;
+      overflow: hidden;
+      font-weight:500;
       text-decoration: none;
       padding: .5rem 1rem;
       margin-bottom: 15px;
@@ -155,7 +165,7 @@ background: var(--web-color-theme);
         left: 3px;
         right: 3px;
         background: rgb(12, 12, 12);
-        border: 2px solid #DAA520;;
+        border: 2px solid #DAA520;
         z-index: -1;
 
     }
@@ -180,25 +190,29 @@ background: var(--web-color-theme);
     }
 /*--------------------all pages Header Area ------------------------- */
 .navbar {
-        opacity: 0.9;
+    opacity: 0.9;
      background: var(--nav-bar-bg-color);
+      font-family: var(--p-font-family);
 }
 #logo{
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
     padding-bottom: 2px;
     padding-top: 2px;
     padding-left: 12px;
     padding-right: 12px;
     background: var( --nav-bar-logo-background);
-    border-radius: 10px;
+  
    }
-#logo span{color: var(--stand-out-color);
+#logo span{
+    color: var(--stand-out-color);
+     font-family: var(--p-font-family);
     }
 .navbar-menu-items{
     color: var( --nav-bar-items-color);
     font-size: 20px;
+     font-family: var(--p-font-family);
 }
 .navbar-menu-items:hover{
 font-weight: bold;
@@ -206,6 +220,7 @@ color: var(--nav-bar-items-hover-color);
 }
 .activee{
  border-bottom: 1px solid var(--nav-bar-active-underline-color);
+ 
   }
 .activee-item{
     background: var(--nav-bar-active-items-color);
@@ -256,14 +271,13 @@ color: var(--nav-bar-items-hover-color);
     justify-content: center;
     position: relative;
     overflow: hidden;
+    
        }
      .wedding-image{
     width: 100%;
     height: 100%;
         }
- .a-button-padding {
-      margin-bottom: 15px;
-     }
+ 
 .carousel-item {
   transition-duration: 1s;
 }
@@ -388,9 +402,9 @@ color: #fff;
     margin-bottom: 20px; 
 }
 .headshot-card-container{
-   background: var(--web-color-theme);
-   height: 100%;
-     padding-top: 10px;
+background: var(--web-color-theme);
+height: 100%;
+padding-top: 10px;
 }
 /*----------------Product photography page---------------------------------*/
 .product-photography-title-container{
@@ -678,13 +692,14 @@ height: 100%;
 }
 .primary-heading-h1-styling{
       font-size: 30px;
+        font-weight: 700;
     line-height:32px;
      letter-spacing: 2px;
    
 }
 .primary-paragraph-styling{
     font-size: 18px;
-   
+     font-weight: 700;
     line-height:32px;
 }
 
@@ -730,6 +745,9 @@ height: 100%;
  }
  .all-pages-title-text-container{
      height: 100%;
+    
+     margin-top: 15px;
+     
  }
  .footer-section{
      height: 100%;
@@ -750,6 +768,19 @@ height: 100%;
 .hide-on-small{
     display: none;
 }
+.primary-heading-h1-styling{
+      font-size: 30px;
+        font-weight: 700;
+    line-height:32px;
+     letter-spacing: 2px;
+   
+}
+.primary-paragraph-styling{
+    font-size: 18px;
+     font-weight: 700;
+    line-height:32px;
+}
+
 
 
 }
@@ -796,5 +827,18 @@ height: 100%;
    width: 100%;
  
 }
+.primary-heading-h1-styling{
+      font-size: 30px;
+        font-weight: 700;
+    line-height:32px;
+     letter-spacing: 2px;
+   
+}
+.primary-paragraph-styling{
+    font-size: 18px;
+     font-weight: 700;
+    line-height:32px;
+}
+
 
 }
