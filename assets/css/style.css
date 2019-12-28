@@ -611,15 +611,15 @@ background: #333;
     font-size: 36px;
 }
 .social-links-icon i:hover{
-   color: #DAA520;
-    border: 2px solid #DAA520;
+   color: #DC143C;
+    border: 2px solid #DC143C;
     border-radius: 50%;
     padding: 10px;
 
     }
     .about-us-headings:hover{
    color: #fff;
-    border-bottom: 2px solid #DAA520;
+    border-bottom: 2px solid #DC143C;
    
    font-size: 26px;
     padding: 10px;
