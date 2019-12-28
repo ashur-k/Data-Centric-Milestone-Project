@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400i,700i|Roboto:100,100i,300,300i,400,400i,500,500i&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap');
 
+:root {
 --nav-bar-bg-color:#000000;
 --nav-bar-items-color:#fff;
 --nav-bar-items-hover-color:rgb(130, 183, 202);
@@ -9,24 +8,17 @@
 --nav-bar-active-underline-color:#fff;
 --nav-bar-active-items-color:#DAA520;
  --stand-out-color: #DAA520;
-  --hr-bg-color: #FF4500;
+  --hr-bg-color: #DAA520;
 --web-color-theme:radial-gradient(circle, #f5f5f5, 	#FFFAFA, #fff);
-
-
-
 /*--nav-bar-logo-background: rgba(255, 0, 0, 0.6);*/
 --dropdown-menu-selection-item-bg-color:black;
 --dropdown-menu-list-items-color:#fff;
-
-  --h1-font-color:#fff; 
-  --h3-font-color:#fff;
-  --p-font-color:#fff;
- --secondary-p-font-color:#000;
-
-  --h1-font-family:'Quicksand';
-  --p-font-family:'Quicksand';
-
- 
+--h1-font-color:#fff; 
+--h3-font-color:#fff;
+--p-font-color:#fff;
+--secondary-p-font-color:#000;
+--h1-font-family:'Quicksand';
+--p-font-family:'Quicksand';
   }
 body {
     padding: 0;
@@ -45,37 +37,39 @@ body {
 .primary-heading-h1-styling{
     font-size: 40px;
     color: #000;
-    font-weight:1000;
-    letter-spacing: 4px;
+    font-weight:700;
+    letter-spacing: 5px;
     text-align: left;
     font-family: var(--h1-font-family);
+    text-transform: uppercase;
     
      }
 .primary-paragraph-styling{
     color:var(--secondary-p-font-color);
     margin: 25px 0;
-    font-size: 22px;
-    font-weight: 300;
-    line-height:32px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height:42px;
     font-family: var(--p-font-family);
      }
-    .hr-divider {
+.hr-divider {
     width: 140px;
     height: 5px;
     border: 0;
     background-color: var(--hr-bg-color);
 }
 .general-hr{
-    color: rgb(10, 10, 10);
+    color: rgb(247, 33, 33);
     height: 5px;
-    border: 2px solid #000;
+    border: 2px solid #DAA520;
     border-radius: 50%;
 }
 .h3-styling{
     color:var(--h3-font-color);
     padding: 0px;
     margin: 0px;
-    font-size: 18px;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 /*--------------------All pages Jumbotron Settings ------------------------- */
 .jumbotron {
@@ -88,6 +82,7 @@ body {
     margin-bottom: 10px;
     font-size: 80px;
     font-family: var(--h1-font-family);
+    text-transform: uppercase;
     }
    
 .jumbotron h1 span {
@@ -107,7 +102,7 @@ font-weight: bold;
 .jumbotron h3:hover{
    font-weight: bold;
 }
-/*-------------------all pages-Primary Containers ------------------------- */
+/*-------------------all pages-Containers ------------------------- */
 .all-pages-title-text-container{
 height: 100vh;
 background: var(--web-color-theme);
@@ -141,6 +136,37 @@ background: var(--web-color-theme);
     overflow: hidden;
     
   }
+  .wedding-promo-section-container{
+    height: 100%;
+    background: var(--web-color-theme);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 20px;
+     padding: 18px; 
+    
+       }
+.index-headshots-section-container{
+height: 100%;
+overflow: hidden;
+background: var(--web-color-theme);
+color: #fff;
+margin: auto;
+padding-bottom: 20px;
+padding: 18px; 
+    }
+ #landscape-and-product-photography-container{
+   
+    overflow: hidden;
+    background: var(--web-color-theme);
+    margin: auto;
+    padding-bottom: 20px;
+     padding: 18px; 
+      }
   /*--------------------All Pages Buttons ------------------------- */
   .btn-color{
       background: #000;
@@ -195,13 +221,13 @@ background: var(--web-color-theme);
       font-family: var(--p-font-family);
 }
 #logo{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 22px;
     text-transform: uppercase;
     padding-bottom: 2px;
     padding-top: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: var( --nav-bar-logo-background);
   
    }
@@ -211,8 +237,9 @@ background: var(--web-color-theme);
     }
 .navbar-menu-items{
     color: var( --nav-bar-items-color);
-    font-size: 20px;
+    font-size: 16px;
      font-family: var(--p-font-family);
+     text-transform: uppercase;
 }
 .navbar-menu-items:hover{
 font-weight: bold;
@@ -262,17 +289,7 @@ color: var(--nav-bar-items-hover-color);
 }
 
 /* -------------------index page-Wedding area section Area ------------------------- */
-.wedding-promo-section-container{
-    height: 100%;
-    background: var(--web-color-theme);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    
-       }
+
      .wedding-image{
     width: 100%;
     height: 100%;
@@ -282,12 +299,7 @@ color: var(--nav-bar-items-hover-color);
   transition-duration: 1s;
 }
 /* ------------------index page--carousel-head-section-area ------------------------- */
-.index-headshots-section-container{
-padding: 18px;
-overflow: hidden;
-background: var(--web-color-theme);
-color: #fff;
-    }
+
 /* ------------------index page--Video-Index-section-area ------------------------- */
 .video-bg{
     width: 100%;
@@ -295,15 +307,12 @@ color: #fff;
     margin-bottom: 25px;
 }
 /* -------------------index page-landscape-section-area ------------------------- */
-#landscape-and-product-photography-container{
-    padding: 18px; 
-    overflow: hidden;
-    background: var(--web-color-theme);
-    margin: auto;
-    padding-bottom: 20px;
-      }
+.landscape-text-div{
+    margin-top:18px; 
+}
 .image-div{
     padding-top: 15px;
+    padding-bottom: 10px;
     width: 100%;
     height: 100%;
     }
@@ -323,7 +332,7 @@ color: #fff;
 }
 /*----------------Wedding Page-----------------------*/
 
-.wedding-page-callout-container {
+.wedding-page-hero-container {
     height: 100vh;
     background: url('../images/wedding-images/wedding15.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -360,7 +369,7 @@ color: #fff;
 
 
 /*--------------Headshot page css*-----------------*/
-.headshot-title-container{
+.headshot-hero-container{
     height: 100vh;
     background: url(../images/headshots/1.jpg), url(../images/headshots/8.jpg), url(../images/headshots/9.jpg); 
     background-attachment: fixed;
@@ -549,42 +558,28 @@ background: #333;
   .footer-headings{
     color: #fff;
     padding-bottom: 10px;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-top:2px;   
 }
 .footer-headings h5{
  font-weight: bolder;
+ padding-top:2px;   
+ margin-top:5px;
 }
-
+   .footer-headings::after{
+      content: '';
+      background: rgb(226, 168, 7);
+      display: block;
+      width: 100%;
+      height: 1px;
+  }
   .footer-headings::before{
       content: '';
-      background: rgb(34, 33, 32);
-      display: block;
-      width: 2px;
-      height: 10%;
-  }
-  .footer-headings::after{
-      content: '';
-      background: rgb(56, 56, 55);
+      background: rgb(226, 168, 7);
       display: block;
       width: 100%;
-      height: 1px;
-  }
-  
-   .aaa::after{
-      content: '';
- 
-         background: rgb(226, 168, 7);
-    
-      display: block;
-      width: 100%;
-      height: 1px;
-  }
-  .aaa::before{
-      content: '';
- 
-         background: rgb(87, 86, 83);
-    
-      display: block;
-     
+      height: 1px;  
   }
    .about-us-paragraph{
       line-height: 30px;
@@ -650,9 +645,9 @@ background: #333;
     height: 100vh;
     background: url(../images/products-photography/1product.jpg); 
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top 100px left, top 100px  right, top 100px  center;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -691,10 +686,11 @@ height: 100%;
     text-align: justify;
 }
 .primary-heading-h1-styling{
-      font-size: 30px;
-        font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
     line-height:32px;
-     letter-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
    
 }
 .primary-paragraph-styling{
@@ -719,16 +715,15 @@ height: 100%;
 .headshot-title-container{
     height: 100vh;
     background: url(../images/headshots/1.jpg); 
-    background-attachment: fixed;
-    background-size: 100% 100%;
+   background-attachment: fixed;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: unset;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
- 
 }
 .product-photography-title-container{
     height: 100vh;
