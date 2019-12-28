@@ -1,51 +1,51 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ashur-k/Data-Centric-Milestone-Project) 
 
 # Bend River Media
-I have developed the website for Bend River Media (BRM), the company name for the award-winning photographer Benjamin (Ben) Driver. BRM offers a wide range of photography and videography services in the following areas.
-### •	Wedding Photography and Videography
-### •	Headshots Photography
-### •	Landscape Photography
-### •	Product Photography
-### •	Commercial Videography
-### •	Performances Showreel Videography
+### I have developed the website for Bend River Media (BRM), the company name for the award-winning photographer Benjamin (Ben) Driver. BRM offers a wide range of photography and videography services in the following areas.
+###### •	Wedding Photography and Videography
+###### •	Headshots Photography
+###### •	Landscape Photography
+###### •	Product Photography
+###### •	Commercial Videography
+###### •	Performances Showreel Videography
 The website for BRM has been designed to look simple, elegant and easy to navigate. The home page, which gives brief information about photography and videography services provided by Bend River Media, has two ways of navigation. Customers can either use the fixed navigation bar at the top of the page or use the navigation buttons provided in each brief information section. Both of these lead potential customers to the services in which they may be interested. 
 # UX
 Ben Diver is a creative photographer and videographer and winner of the Royal Television Society (North-East and Border 2018) award for his drama video, “Develop”. He asked me to build him a website which would enable him to market his skills to a range of potential customers. For example:
-### •	As a mother I want a series of portraits of my two children.
-### •	As we approach our wedding, we want a professional record of our day.
-### •	As an auditioning actor I need professional headshots for my resume.
-### •	As a performer I need a video record of an upcoming performance.
-### •	As a micro brewer I need marketing material for my artisan beers.
-### •	As a local church we need a videographer to market our events.
-### •	As an interior decorator working in the commercial sector, I need inspiring and calming landscape images.
+###### •	As a mother I want a series of portraits of my two children.
+###### •	As we approach our wedding, we want a professional record of our day.
+###### •	As an auditioning actor I need professional headshots for my resume.
+###### •	As a performer I need a video record of an upcoming performance.
+###### •	As a micro brewer I need marketing material for my artisan beers.
+###### •	As a local church we need a videographer to market our events.
+###### •	As an interior decorator working in the commercial sector, I need inspiring and calming landscape images.
 The aim of the website is to market Ben’s services and to help him to generate business. Ben and I looked at different websites which provide similar services to Ben’s business. I needed to get ideas of how he wanted his website to look and soon realised he wanted something visually simple and easy to navigate. Ben wanted separate web pages for each of the different services he provides. For this reason, designing the navigation of the website was a challenge. I wanted web users to find the services they were looking for easily and after taking feedback on several different versions I decided on the current one, which is simple, stylish and easy to read. I used Balsamiq Mockups 3 and made a wireframe design and Ben and I agreed on this final design.
 # Features
-### 1.	The website markets the full range of Ben’s services. It is designed to be time efficient for web users. 
-### 2.	Each section provides links to the main page of that particular service.
-### 3.	To make the website consistent each service page has an introductory hero section with a fixed background image.
-### 4.	Each of these pages has a link to a contact form.
-### 5.	The BRM website has a fixed navigation bar at the top of each page, which gives users full control over navigation.
-### 6.	The BRM website design is device responsive, it’s designed for mobile, tablet and large screen devices.
-### 7.	BRM has a web form which helps users to send information.
-### 8.	BRM customers are also provided with social media links where they can find more information.
+###### 1.	The website markets the full range of Ben’s services. It is designed to be time efficient for web users. 
+###### 2.	Each section provides links to the main page of that particular service.
+###### 3.	To make the website consistent each service page has an introductory hero section with a fixed background image.
+###### 4.	Each of these pages has a link to a contact form.
+###### 5.	The BRM website has a fixed navigation bar at the top of each page, which gives users full control over navigation.
+###### 6.	The BRM website design is device responsive, it’s designed for mobile, tablet and large screen devices.
+###### 7.	BRM has a web form which helps users to send information.
+###### 8.	BRM customers are also provided with social media links where they can find more information.
 # Features Left to Implement
 At the moment there is no custom script applied to any section of the website. In particular the form modal is not functioning correctly and needs scripting in order to be complete. In the future I will implement data validation and form submission. 
 # Technologies Used
-### •	HTMI5 to implement website project.
-### •	CSS3 to implement website project.
-### •	GIT POD online web workspace for HTML & CSS coding.
-### •	Git Hub hosting services and data storage services.
-### •	Google Chrome to run GIT POD workspace for development process. 
-### •	Google chrome Git extension button to log into Git Pod workspace.
-### •	Google Chrome Developer tools.
-### •	Firefox browser latest version for testing purposes.
-### •	Opera latest version for testing purposes.
-### •	Safari unknown version for testing.
-### •	EDGE latest version for testing purposes.
-### •	Internet explorer latest version for testing purposes.
-### •	Bootstrap 4 to implement website.
-### •	Font awesome free version.
-### •	Balsamiq Mockups 3 for designing wireframes
+###### •	HTMI5 to implement website project.
+###### •	CSS3 to implement website project.
+###### •	GIT POD online web workspace for HTML & CSS coding.
+###### •	Git Hub hosting services and data storage services.
+###### •	Google Chrome to run GIT POD workspace for development process. 
+###### •	Google chrome Git extension button to log into Git Pod workspace.
+###### •	Google Chrome Developer tools.
+###### •	Firefox browser latest version for testing purposes.
+###### •	Opera latest version for testing purposes.
+###### •	Safari unknown version for testing.
+###### •	EDGE latest version for testing purposes.
+###### •	Internet explorer latest version for testing purposes.
+###### •	Bootstrap 4 to implement website.
+###### •	Font awesome free version.
+###### •	Balsamiq Mockups 3 for designing wireframes
 
 # Testing
 The Website was tested in different browsers at each stage of its development, for example Opera, Mozilla Firefox, Apple Safari. Opera, in particular, gives more control over media playback. Ben didn’t want audio for his home page video, so I showed him a version of the video section with a small button to mute/unmute the video. He didn’t want web users to have that control. However, when I informed him Opera Browser will give that control to users, and asked what he thought about that, he told me he is fine with what Opera browser is offering.
