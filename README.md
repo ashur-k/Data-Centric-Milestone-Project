@@ -1,7 +1,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ashur-k/Data-Centric-Milestone-Project) 
 
 # Bend River Media
-### I have developed the website for Bend River Media (BRM), the company name for the award-winning photographer Benjamin (Ben) Driver. BRM offers a wide range of photography and videography services in the following areas.
+ I have developed the website for Bend River Media (BRM), the company name for the award-winning photographer Benjamin (Ben) Driver. BRM offers a wide range of photography and videography services in the following areas.
 ###### •	Wedding Photography and Videography
 ###### •	Headshots Photography
 ###### •	Landscape Photography
