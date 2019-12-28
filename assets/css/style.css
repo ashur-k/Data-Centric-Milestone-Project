@@ -552,16 +552,13 @@ background: #333;
     color: #000;
   }
   .footer-headings{
-      text-align: center;
-      margin-bottom: 10px;
-  }
-  .footer-headings{
-    color: #fff;
-    padding-bottom: 10px;
+    text-align: center;
     margin-top:auto;
     margin-bottom:auto;
-    padding-top:2px;   
-}
+    padding-top:2px; 
+    padding-bottom: 10px; 
+  }
+ 
 .footer-headings h5{
  font-weight: bolder;
  padding-top:2px;   
@@ -590,24 +587,33 @@ background: #333;
 
 
 
-.social-links-icon i{
-    color: #fff;
-    font-size: 26px;
-}
 .about-us-paragraph{
   
     color: #fff;
 }
 .about-us-headings{
- 
-   color: #fff;
+    color: #fff;
 }
 .social-links{
     margin-bottom: 0px;
 }
 .social-links-icon{
-    padding-left:15px; 
+    padding-left:25px; 
+    padding-right:25px; 
+   
 }
+
+ .social-links-icon i{
+    color: #fff;
+    font-size: 36px;
+}
+.social-links-icon i:hover{
+   color: #DAA520;
+    border: 2px solid #DAA520;
+    border-radius: 50%;
+    padding: 10px;
+
+    }
 
 /*Extra small devices (portrait phones, less than 576px)*/
 
@@ -676,8 +682,8 @@ height: 100%;
 #lead{
     font-size: 20px;
 }
-#h1{
-    font-size: 50px;
+#headshot-header-h1{
+    font-size: 40px;
     margin: 0;
     padding: 0;
 }
@@ -712,13 +718,13 @@ height: 100%;
     .headshots-para-text{
     font-size: 20px;
 }
-.headshot-title-container{
-    height: 100vh;
+.headshot-hero-container{
+   height: 100vh;
     background: url(../images/headshots/1.jpg); 
-   background-attachment: fixed;
-    background-size: contain;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: unset;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -776,8 +782,6 @@ height: 100%;
     line-height:32px;
 }
 
-
-
 }
 @media only screen and (min-width: 768px) and (max-width:991px){
     .headshots-para-text{
@@ -803,7 +807,7 @@ height: 100%;
     background-attachment: fixed;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top 100px left, top 100px  right, top 100px  center;
+    background-position: top 100px left;
     display: flex;
     align-items: center;
     justify-content: center;
